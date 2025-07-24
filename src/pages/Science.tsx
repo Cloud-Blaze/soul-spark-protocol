@@ -132,24 +132,27 @@ const Science = () => {
                     </div>
                   ))}
                 </div>
-                <div className="mt-6 space-y-3 text-xs text-deep-teal/50">
-                  <p><strong>Clinical Research Sources:</strong></p>
-                  <div className="grid md:grid-cols-2 gap-2">
-                    <div>
-                      <p><strong>Magnesium & B-Complex:</strong></p>
-                      <a href="https://www.carenity.us/condition-information/magazine/nutrition/10-natural-supplements-that-can-transform-your-mental-health-1937" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ Carenity: Natural Supplements for Mental Health</a>
+                <div className="mt-8 p-6 bg-gradient-to-r from-sage/20 to-gold/20 rounded-lg border border-sage/30">
+                  <h4 className="text-lg font-bold text-deep-teal mb-4 flex items-center gap-2">
+                    <FlaskConical className="w-5 h-5" />
+                    Clinical Research Sources:
+                  </h4>
+                  <div className="grid md:grid-cols-2 gap-4 text-sm">
+                    <div className="p-3 bg-background/80 rounded border border-sage/20">
+                      <p className="font-semibold text-deep-teal mb-2">Magnesium & B-Complex:</p>
+                      <a href="https://www.carenity.us/condition-information/magazine/nutrition/10-natural-supplements-that-can-transform-your-mental-health-1937" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block">→ Carenity: Natural Supplements for Mental Health</a>
                     </div>
-                    <div>
-                      <p><strong>Omega-3 & Ashwagandha:</strong></p>
-                      <a href="https://www.carenity.us/condition-information/magazine/nutrition/10-natural-supplements-that-can-transform-your-mental-health-1937" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ Carenity: Clinical Evidence Overview</a>
+                    <div className="p-3 bg-background/80 rounded border border-sage/20">
+                      <p className="font-semibold text-deep-teal mb-2">Omega-3 & Ashwagandha:</p>
+                      <a href="https://www.carenity.us/condition-information/magazine/nutrition/10-natural-supplements-that-can-transform-your-mental-health-1937" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block">→ Carenity: Clinical Evidence Overview</a>
                     </div>
-                    <div>
-                      <p><strong>L-Theanine Research:</strong></p>
-                      <a href="https://www.mindbodygreen.com/articles/diet-that-improved-my-sleep-energy-anxiety" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ MindBodyGreen: Alpha Brainwave Studies</a>
+                    <div className="p-3 bg-background/80 rounded border border-sage/20">
+                      <p className="font-semibold text-deep-teal mb-2">L-Theanine Research:</p>
+                      <a href="https://www.mindbodygreen.com/articles/diet-that-improved-my-sleep-energy-anxiety" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block">→ MindBodyGreen: Alpha Brainwave Studies</a>
                     </div>
-                    <div>
-                      <p><strong>CoQ10 Mitochondrial Studies:</strong></p>
-                      <a href="https://pubmed.ncbi.nlm.nih.gov/19356339/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ PubMed: CoQ10 Clinical Research</a>
+                    <div className="p-3 bg-background/80 rounded border border-sage/20">
+                      <p className="font-semibold text-deep-teal mb-2">CoQ10 Mitochondrial Studies:</p>
+                      <a href="https://pubmed.ncbi.nlm.nih.gov/19356339/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block">→ PubMed: CoQ10 Clinical Research</a>
                     </div>
                   </div>
                 </div>
@@ -193,11 +196,14 @@ const Science = () => {
                     "The central nervous system is left unregulated... symptoms may persist for months or years." — Benzoinfo.com
                   </p>
                 </div>
-                <div className="text-xs text-deep-teal/50 mt-4">
-                  <p><strong>Withdrawal Research Sources:</strong></p>
-                  <div className="space-y-1 mt-2">
-                    <a href="https://www.benzoinfo.com/benzodiazepine-detox-cold-turkey-abrupt-cessation" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ Benzoinfo.com: Benzodiazepine Cold Turkey Dangers</a>
-                    <a href="https://distance.physiology.med.ufl.edu/the-dangers-of-stopping-antidepressants-cold-turkey" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ University of Florida: Antidepressant Withdrawal Risks</a>
+                <div className="mt-6 p-4 bg-gradient-to-r from-gold/15 to-sage/15 rounded-lg border border-gold/30">
+                  <h4 className="text-base font-bold text-deep-teal mb-3 flex items-center gap-2">
+                    <BookOpen className="w-4 h-4" />
+                    Withdrawal Research Sources:
+                  </h4>
+                  <div className="space-y-2">
+                    <a href="https://www.benzoinfo.com/benzodiazepine-detox-cold-turkey-abrupt-cessation" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ Benzoinfo.com: Benzodiazepine Cold Turkey Dangers</a>
+                    <a href="https://distance.physiology.med.ufl.edu/the-dangers-of-stopping-antidepressants-cold-turkey" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ University of Florida: Antidepressant Withdrawal Risks</a>
                   </div>
                 </div>
               </CardContent>
@@ -240,12 +246,15 @@ const Science = () => {
                     <li>• Support fermented foods and prebiotic fiber intake</li>
                   </ul>
                 </div>
-                <div className="text-xs text-deep-teal/50 mt-4">
-                  <p><strong>Gut-Brain Research Sources:</strong></p>
-                  <div className="space-y-1 mt-2">
-                    <a href="https://www.carenity.us/condition-information/magazine/nutrition/10-natural-supplements-that-can-transform-your-mental-health-1937" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ Carenity: Probiotics & Mental Health Research</a>
-                    <a href="https://www.mindbodygreen.com/articles/diet-that-improved-my-sleep-energy-anxiety" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ MindBodyGreen: Gut-Brain Axis Connection</a>
-                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4367209/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ NCBI: Microbiome & Mental Health</a>
+                <div className="mt-6 p-4 bg-gradient-to-r from-sage/15 to-gold/15 rounded-lg border border-sage/30">
+                  <h4 className="text-base font-bold text-deep-teal mb-3 flex items-center gap-2">
+                    <Sprout className="w-4 h-4" />
+                    Gut-Brain Research Sources:
+                  </h4>
+                  <div className="space-y-2">
+                    <a href="https://www.carenity.us/condition-information/magazine/nutrition/10-natural-supplements-that-can-transform-your-mental-health-1937" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ Carenity: Probiotics & Mental Health Research</a>
+                    <a href="https://www.mindbodygreen.com/articles/diet-that-improved-my-sleep-energy-anxiety" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ MindBodyGreen: Gut-Brain Axis Connection</a>
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4367209/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ NCBI: Microbiome & Mental Health</a>
                   </div>
                 </div>
               </CardContent>
@@ -286,12 +295,15 @@ const Science = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="text-xs text-deep-teal/50 mt-4">
-                  <p><strong>Family Nervous System Research:</strong></p>
-                  <div className="space-y-1 mt-2">
-                    <a href="https://www.medicalnewstoday.com/articles/parental-anxiety" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ Medical News Today: How Parental Anxiety Affects Children</a>
-                    <a href="https://www.verywellhealth.com/living-with-a-bipolar-spouse-5205006" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ VeryWell Health: Living with Bipolar Spouse Impact</a>
-                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3181675/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ NCBI: Intergenerational Transmission of Anxiety</a>
+                <div className="mt-6 p-4 bg-gradient-to-r from-gold/15 to-sage/15 rounded-lg border border-gold/30">
+                  <h4 className="text-base font-bold text-deep-teal mb-3 flex items-center gap-2">
+                    <Users className="w-4 h-4" />
+                    Family Nervous System Research:
+                  </h4>
+                  <div className="space-y-2">
+                    <a href="https://www.medicalnewstoday.com/articles/parental-anxiety" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ Medical News Today: How Parental Anxiety Affects Children</a>
+                    <a href="https://www.verywellhealth.com/living-with-a-bipolar-spouse-5205006" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ VeryWell Health: Living with Bipolar Spouse Impact</a>
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3181675/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ NCBI: Intergenerational Transmission of Anxiety</a>
                   </div>
                 </div>
               </CardContent>
@@ -336,12 +348,15 @@ const Science = () => {
                     Have your stack printed and bring your questions—you're allowed to ask for help without a prescription.
                   </p>
                 </div>
-                <div className="text-xs text-deep-teal/50 mt-4">
-                  <p><strong>Healthcare Provider Resources:</strong></p>
-                  <div className="space-y-1 mt-2">
-                    <a href="https://ifm.org" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ ifm.org - Find Functional Medicine Practitioners</a>
-                    <a href="https://psychologytoday.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ Psychology Today - Filter for Nutrition-Focused Providers</a>
-                    <a href="https://www.eatright.org/find-a-nutrition-expert" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline block">→ Academy of Nutrition - Find Registered Dietitians</a>
+                <div className="mt-6 p-4 bg-gradient-to-r from-sage/15 to-gold/15 rounded-lg border border-sage/30">
+                  <h4 className="text-base font-bold text-deep-teal mb-3 flex items-center gap-2">
+                    <MessageCircle className="w-4 h-4" />
+                    Healthcare Provider Resources:
+                  </h4>
+                  <div className="space-y-2">
+                    <a href="https://ifm.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ ifm.org - Find Functional Medicine Practitioners</a>
+                    <a href="https://psychologytoday.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ Psychology Today - Filter for Nutrition-Focused Providers</a>
+                    <a href="https://www.eatright.org/find-a-nutrition-expert" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ Academy of Nutrition - Find Registered Dietitians</a>
                   </div>
                 </div>
               </CardContent>
