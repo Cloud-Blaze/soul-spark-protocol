@@ -38,7 +38,7 @@ const Hero = () => {
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-deep-teal/80 mb-8 leading-relaxed">
             The open-source nervous system stack for anyone ready to reclaim 
-            their clarity—without prescriptions, without shame, just repair.
+            their clarity—and help heal the planet. Without prescriptions, without shame, just regeneration.
           </p>
 
           {/* Key Promise */}

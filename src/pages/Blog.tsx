@@ -5,6 +5,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "earth-can-breathe",
+    title: "🌍 When We Stop Masking Burnout: Earth Can Finally Breathe",
+    excerpt: "Every time we numb instead of heal, we're spending energy to stay broken—and it's costing the planet.",
+    emoji: "🌍"
+  },
+  {
     slug: "cross-functional-doctors",
     title: "🧠 Where Are the Cross-Functional Doctors?",
     excerpt: "The human nervous system is failing quietly in millions of people—and modern healthcare has no coordinated plan to fix it.",

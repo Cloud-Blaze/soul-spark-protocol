@@ -26,6 +26,7 @@ import PreDigitalMemoryReawakening from "./pages/blog/PreDigitalMemoryReawakenin
 import ReducedDeaths from "./pages/blog/ReducedDeaths";
 import TrueMarriageHealing from "./pages/blog/TrueMarriageHealing";
 import UnblockedProductivity from "./pages/blog/UnblockedProductivity";
+import EarthCanBreathe from "./pages/blog/EarthCanBreathe";
 import CrossFunctionalDoctors from "./pages/blog/CrossFunctionalDoctors";
 
 const queryClient = new QueryClient();
@@ -44,6 +45,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/earth-can-breathe" element={<EarthCanBreathe />} />
           <Route path="/blog/fogged-generation" element={<FoggedGeneration />} />
           <Route path="/blog/nervous-system-renaissance" element={<NervousSystemRenaissance />} />
           <Route path="/blog/court-ordered-clarity" element={<CourtOrderedClarity />} />

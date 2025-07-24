@@ -76,8 +76,8 @@ const StackSection = () => {
             The <span className="bg-gradient-to-r from-indigo to-gold bg-clip-text text-transparent">Unfogged Stack</span>
           </h2>
           <p className="text-xl text-deep-teal/70 max-w-3xl mx-auto leading-relaxed">
-            Six science-backed supplements that rebuild your mitochondrial energy, 
-            neurotransmitter stability, stress rhythm, and emotional resilience.
+            Move from consumption to creation. Six science-backed supplements that rebuild your mitochondrial energy, 
+            neurotransmitter stability, and the clarity to build beautiful things—not broken systems.
           </p>
         </div>
 
