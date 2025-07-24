@@ -49,7 +49,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/about" className="text-deep-teal/70 hover:text-primary transition-colors">
-                  About David
+                  About Founder
                 </Link>
               </li>
               <li>

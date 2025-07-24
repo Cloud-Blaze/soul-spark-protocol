@@ -35,7 +35,7 @@ const ProblemSection = () => {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-deep-teal mb-6">
-            Why Just <span className="bg-gradient-to-r from-indigo to-deep-teal bg-clip-text text-transparent">'Unfogged'</span>?
+            Why Just <span className="text-white md:bg-gradient-to-r md:from-indigo md:to-deep-teal md:bg-clip-text md:text-transparent">'Unfogged'</span>?
           </h2>
           <p className="text-xl text-deep-teal/70 leading-relaxed">
             Because alcohol isn't the only thing fogging your nervous system. 
