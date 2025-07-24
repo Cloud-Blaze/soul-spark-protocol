@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Github } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -28,7 +28,8 @@ const Header = () => {
             <Link to="/science" className="text-deep-teal hover:text-primary transition-colors">
               Science
             </Link>
-            <a href="https://github.com/unfogged/unfogged-protocol/" target="_blank" rel="noopener noreferrer" className="text-deep-teal hover:text-primary transition-colors">
+            <a href="https://github.com/unfogged/unfogged-protocol/" target="_blank" rel="noopener noreferrer" className="text-deep-teal hover:text-primary transition-colors flex items-center gap-1">
+              <Github className="w-4 h-4" />
               Community
             </a>
             <Button variant="healing" size="sm">
@@ -78,9 +79,10 @@ const Header = () => {
                 href="https://github.com/unfogged/unfogged-protocol/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-deep-teal hover:text-primary transition-colors"
+                className="text-deep-teal hover:text-primary transition-colors flex items-center gap-1"
                 onClick={() => setIsMenuOpen(false)}
               >
+                <Github className="w-4 h-4" />
                 Community
               </a>
               <Button variant="healing" size="sm" className="w-fit">
