@@ -48,6 +48,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/about" className="text-deep-teal/70 hover:text-primary transition-colors">
+                  About David
+                </Link>
+              </li>
+              <li>
               <a href="https://github.com/unfogged/unfogged-protocol/" target="_blank" rel="noopener noreferrer" className="text-deep-teal/70 hover:text-primary transition-colors">
                 Community Support
               </a>

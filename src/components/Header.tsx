@@ -28,6 +28,9 @@ const Header = () => {
             <Link to="/science" className="text-deep-teal hover:text-primary transition-colors">
               Science
             </Link>
+            <Link to="/about" className="text-deep-teal hover:text-primary transition-colors">
+              About
+            </Link>
             <a href="https://github.com/unfogged/unfogged-protocol/" target="_blank" rel="noopener noreferrer" className="text-deep-teal hover:text-primary transition-colors flex items-center gap-1">
               <Github className="w-4 h-4" />
               Community
@@ -76,6 +79,13 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Science
+              </Link>
+              <Link 
+                to="/about" 
+                className="text-deep-teal hover:text-primary transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
               </Link>
               <a 
                 href="https://github.com/unfogged/unfogged-protocol/" 
