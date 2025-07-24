@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Heart, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroBrainFog from "@/assets/hero-brain-fog.jpg";
 
 const Hero = () => {
@@ -62,8 +63,10 @@ const Hero = () => {
               Start Your 90-Day Reset
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="sacred" size="lg">
-              Read the Science
+            <Button variant="sacred" size="lg" asChild>
+              <Link to="/science">
+                Read the Science
+              </Link>
             </Button>
           </div>
 
