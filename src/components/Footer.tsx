@@ -23,7 +23,7 @@ const Footer = () => {
                 <span className="text-sm font-medium text-primary">Because clarity shouldn't be patented</span>
               </div>
               <p className="text-xs text-deep-teal/70">
-                Healing meets rebellion. Sacred meets science-backed.
+                Healing meets rebellion. Clarity meets clinical.
               </p>
             </div>
           </div>

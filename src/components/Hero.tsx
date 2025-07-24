@@ -20,7 +20,7 @@ const Hero = () => {
           {/* Sacred Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sage/20 border border-sage/30 text-deep-teal text-sm font-medium mb-8">
             <Sparkles className="w-4 h-4" />
-            Sacred meets science-backed
+            Clarity meets clinical
           </div>
 
           {/* Main Headline */}
