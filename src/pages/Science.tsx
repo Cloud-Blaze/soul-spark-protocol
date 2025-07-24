@@ -86,9 +86,20 @@ const Science = () => {
                   </div>
                 </div>
                 <div className="bg-gold/10 p-4 rounded-lg border border-gold/20">
-                  <p className="text-sm text-deep-teal italic">
+                  <p className="text-sm text-deep-teal italic mb-2">
                     "Supplements don't work like meds. They rebuild, not override."
                   </p>
+                </div>
+                <div className="space-y-3">
+                  <h4 className="font-semibold text-deep-teal">Key Benefits of 90 Days:</h4>
+                  <ul className="text-sm text-deep-teal/70 space-y-1">
+                    <li>• Mitochondrial energy improves (especially via CoQ10)</li>
+                    <li>• Sleep architecture resets completely</li>
+                    <li>• Stress response normalizes naturally</li>
+                  </ul>
+                  <div className="text-xs text-deep-teal/50 pt-2">
+                    <strong>Source:</strong> <a href="https://www.personanutrition.com/blog/90-day-supplement-journey" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">personanutrition.com/blog/90-day-supplement-journey</a>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -102,6 +113,9 @@ const Science = () => {
                 </div>
               </CardHeader>
               <CardContent>
+                <p className="text-deep-teal/70 leading-relaxed mb-6">
+                  Each core component in the Unfogged stack is backed by clinical and nutritional research. These are not just "vitamins"—they are precision tools for repairing the bioelectric fog.
+                </p>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {[
                     { name: "Magnesium", purpose: "Calms nerves, supports GABA", effect: "Natural nervous system relaxant" },
@@ -117,6 +131,14 @@ const Science = () => {
                       <p className="text-xs text-primary font-medium">{supplement.effect}</p>
                     </div>
                   ))}
+                </div>
+                <div className="mt-6 space-y-2 text-xs text-deep-teal/50">
+                  <p><strong>Research Sources:</strong></p>
+                  <ul className="space-y-1 ml-4">
+                    <li>• <a href="https://www.carenity.us/condition-information/magazine/nutrition/10-natural-supplements-that-can-transform-your-mental-health-1937" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Carenity: Natural Supplements for Mental Health</a></li>
+                    <li>• <a href="https://pubmed.ncbi.nlm.nih.gov/19356339/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">PubMed: CoQ10 Research</a></li>
+                    <li>• <a href="https://www.mindbodygreen.com/articles/diet-that-improved-my-sleep-energy-anxiety" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">MindBodyGreen: L-Theanine Studies</a></li>
+                  </ul>
                 </div>
               </CardContent>
             </Card>
@@ -153,6 +175,15 @@ const Science = () => {
                     </ul>
                   </div>
                 </div>
+                <div className="mt-4 p-4 bg-background rounded-lg border border-sage/20">
+                  <p className="text-sm text-deep-teal/70 italic">
+                    "The central nervous system is left unregulated... symptoms may persist for months or years." — Benzoinfo.com
+                  </p>
+                </div>
+                <div className="text-xs text-deep-teal/50 mt-3">
+                  <strong>Sources:</strong> <a href="https://www.benzoinfo.com/benzodiazepine-detox-cold-turkey-abrupt-cessation" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors mr-4">benzoinfo.com</a>
+                  <a href="https://distance.physiology.med.ufl.edu/the-dangers-of-stopping-antidepressants-cold-turkey" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">University of Florida: Antidepressant Withdrawal</a>
+                </div>
               </CardContent>
             </Card>
 
@@ -184,6 +215,18 @@ const Science = () => {
                     <div className="text-sm text-deep-teal font-medium mb-1">Mood Regulation</div>
                     <div className="text-xs text-deep-teal/60">Through microbiome balance</div>
                   </div>
+                </div>
+                <div className="mt-6 p-4 bg-background rounded-lg border border-sage/20">
+                  <h4 className="font-semibold text-deep-teal mb-3">How Probiotics Support Mental Health:</h4>
+                  <ul className="text-sm text-deep-teal/70 space-y-1">
+                    <li>• Reduce anxiety symptoms naturally</li>
+                    <li>• Improve digestion and neurotransmitter balance</li>
+                    <li>• Support fermented foods and prebiotic fiber intake</li>
+                  </ul>
+                </div>
+                <div className="text-xs text-deep-teal/50 mt-3">
+                  <strong>Sources:</strong> <a href="https://www.carenity.us/condition-information/magazine/nutrition/10-natural-supplements-that-can-transform-your-mental-health-1937" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors mr-4">Carenity: Probiotics Research</a>
+                  <a href="https://www.mindbodygreen.com/articles/diet-that-improved-my-sleep-energy-anxiety" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">MindBodyGreen: Gut-Brain Connection</a>
                 </div>
               </CardContent>
             </Card>
@@ -223,6 +266,10 @@ const Science = () => {
                     </ul>
                   </div>
                 </div>
+                <div className="text-xs text-deep-teal/50 mt-4">
+                  <strong>Sources:</strong> <a href="https://www.medicalnewstoday.com/articles/parental-anxiety" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors mr-4">Medical News Today: Parental Anxiety Effects</a>
+                  <a href="https://www.verywellhealth.com/living-with-a-bipolar-spouse-5205006" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">VeryWell Health: Living with Bipolar Spouse</a>
+                </div>
               </CardContent>
             </Card>
 
@@ -257,6 +304,17 @@ const Science = () => {
                     <h4 className="font-semibold text-deep-teal mb-2">Nutrition-Savvy Psychiatrists</h4>
                     <p className="text-sm text-deep-teal/70">Mental health with nutritional awareness</p>
                   </div>
+                </div>
+                <div className="mt-6 p-4 bg-gold/10 rounded-lg border border-gold/20">
+                  <h4 className="font-semibold text-deep-teal mb-2">Insurance Coverage Tips:</h4>
+                  <p className="text-sm text-deep-teal/70">
+                    Many insurance plans (including BCBS) offer 1–3 covered visits per year with qualified nutrition professionals. 
+                    Have your stack printed and bring your questions—you're allowed to ask for help without a prescription.
+                  </p>
+                </div>
+                <div className="text-xs text-deep-teal/50 mt-3">
+                  <strong>Find Providers:</strong> <a href="https://ifm.org" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors mr-4">ifm.org (Functional Medicine)</a>
+                  <a href="https://psychologytoday.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">psychologytoday.com (Nutrition-focused)</a>
                 </div>
               </CardContent>
             </Card>
