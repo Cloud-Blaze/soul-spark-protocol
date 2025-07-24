@@ -12,7 +12,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="text-2xl font-bold bg-gradient-to-r from-indigo to-deep-teal bg-clip-text text-transparent">
+            <div className="text-2xl font-bold md:bg-gradient-to-r md:from-indigo md:to-deep-teal md:bg-clip-text md:text-transparent text-white md:text-transparent">
               UNFOGGED™
             </div>
           </Link>
