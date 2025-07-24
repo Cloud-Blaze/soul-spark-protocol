@@ -156,14 +156,6 @@ const CrossFunctionalDoctors = () => {
                 </p>
               </CardContent>
             </Card>
-
-            <div className="text-center py-8">
-              <p className="text-lg mb-2">Want to help build the Nervous System Renaissance?</p>
-              <p className="text-lg font-semibold mb-4">Visit unfogged.org</p>
-              <p className="text-lg text-deep-teal">
-                ✝️ For the fogged, the burned out, and the ready to feel again.
-              </p>
-            </div>
           </div>
         </div>
       </main>
