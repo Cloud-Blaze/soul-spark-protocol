@@ -163,7 +163,7 @@ const Terms = () => {
                       You are always free to purchase these supplements from any retailer. The specific brands mentioned are suggestions, not requirements.
                     </p>
                     <p>
-                      <strong>Important:</strong> If you choose to support our mission through purchases, please use only our official Amazon wishlist: <a href="https://www.amazon.com/hz/wishlist/ls/35TOKXAVOW09Y" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.amazon.com/hz/wishlist/ls/35TOKXAVOW09Y</a>. You may not substitute this with other affiliate links.
+                      <strong>Important:</strong> If you choose to support our mission through purchases, please use only our official Amazon wishlist: <a href="https://www.amazon.com/hz/wishlist/ls/35TOKXAVOW09Y?ref_=wl_share&tag=unfogged0f-20" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.amazon.com/hz/wishlist/ls/35TOKXAVOW09Y?ref_=wl_share&tag=unfogged0f-20</a>. You may not substitute this with other affiliate links.
                     </p>
                   </div>
                 </div>
