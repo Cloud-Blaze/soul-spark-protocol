@@ -212,13 +212,59 @@ const Terms = () => {
                   <h2 className="text-2xl font-bold text-deep-teal mb-6">8. Privacy & Data</h2>
                   <div className="text-deep-teal/80 leading-relaxed space-y-4">
                     <p>
-                      We do not collect personal health information. Any analytics we gather are limited to basic website usage to improve accessibility and user experience.
+                      We do not collect personal data or track users beyond standard analytics. Email submissions are voluntary and only used to respond directly. We do not share or sell any user information.
                     </p>
                     <p>
                       If you choose to engage with our community spaces (GitHub, etc.), you are subject to those platforms' privacy policies.
                     </p>
                     <p>
                       We will never sell, share, or monetize any personal information. Ever.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Affiliate Links Update */}
+                <div className="bg-background/80 backdrop-blur-sm rounded-xl border border-sage/20 p-8">
+                  <h2 className="text-2xl font-bold text-deep-teal mb-6">8.5. Affiliate Links & Transparency (Updated)</h2>
+                  <div className="text-deep-teal/80 leading-relaxed space-y-4">
+                    <p>
+                      Some product links may be affiliate links. We only link to products we've vetted and use in our open-source stack. Any proceeds are reinvested in keeping this project sustainable.
+                    </p>
+                    <p>
+                      <strong>Our commitment:</strong> We only recommend products we genuinely believe in. Affiliate relationships do not influence our supplement recommendations—those are based solely on research, bioavailability, and community feedback.
+                    </p>
+                    <p>
+                      You are always free to purchase these supplements from any retailer. The specific brands mentioned are suggestions, not requirements.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Creative Commons License Update */}
+                <div className="bg-background/80 backdrop-blur-sm rounded-xl border border-sage/20 p-8">
+                  <h2 className="text-2xl font-bold text-deep-teal mb-6">8.6. Creative Commons License (Updated)</h2>
+                  <div className="text-deep-teal/80 leading-relaxed space-y-4">
+                    <p>
+                      Unless otherwise noted, all Unfogged content is released under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). You may adapt and share the protocol non-commercially with credit and a link back to this site.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Medical Disclaimer Update */}
+                <div className="bg-background/80 backdrop-blur-sm rounded-xl border border-sage/20 p-8">
+                  <h2 className="text-2xl font-bold text-deep-teal mb-6">8.7. Medical Disclaimer (Updated)</h2>
+                  <div className="text-deep-teal/80 leading-relaxed space-y-4">
+                    <p>
+                      The content on this site is for educational and informational purposes only. It is not medical advice and does not substitute for consultation with a licensed healthcare provider. Always speak with a medical professional before starting any new supplement, protocol, or recovery program.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Mission Protection */}
+                <div className="bg-background/80 backdrop-blur-sm rounded-xl border border-sage/20 p-8">
+                  <h2 className="text-2xl font-bold text-deep-teal mb-6">8.8. Mission Protection</h2>
+                  <div className="text-deep-teal/80 leading-relaxed space-y-4">
+                    <p>
+                      This is a public-welfare project. Please don't resell, white-label, or misrepresent this protocol. Respect the mission. Respect the stack.
                     </p>
                   </div>
                 </div>
