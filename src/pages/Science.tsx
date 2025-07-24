@@ -97,9 +97,13 @@ const Science = () => {
                     <li>• Sleep architecture resets completely</li>
                     <li>• Stress response normalizes naturally</li>
                   </ul>
-                  <div className="text-xs text-deep-teal/50 pt-2">
-                    <strong>Source:</strong> <a href="https://www.personanutrition.com/blog/90-day-supplement-journey" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline">personanutrition.com/blog/90-day-supplement-journey</a>
-                  </div>
+                </div>
+                <div className="mt-4 p-4 bg-gradient-to-r from-sage/15 to-gold/15 rounded-lg border border-sage/30">
+                  <h4 className="text-base font-bold text-deep-teal mb-2 flex items-center gap-2">
+                    <Brain className="w-4 h-4" />
+                    90-Day Protocol Research:
+                  </h4>
+                  <a href="https://www.personanutrition.com/blog/90-day-supplement-journey" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium text-sm">→ personanutrition.com/blog/90-day-supplement-journey</a>
                 </div>
               </CardContent>
             </Card>
