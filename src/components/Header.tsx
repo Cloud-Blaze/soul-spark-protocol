@@ -32,8 +32,10 @@ const Header = () => {
               <Github className="w-4 h-4" />
               Community
             </a>
-            <Button variant="healing" size="sm">
-              Start Your Reset
+            <Button variant="healing" size="sm" asChild>
+              <a href="https://www.amazon.com/hz/wishlist/ls/35TOKXAVOW09Y?ref_=wl_share&tag=unfogged0f-20" target="_blank" rel="noopener noreferrer">
+                Start Your Reset
+              </a>
             </Button>
           </nav>
 
@@ -85,8 +87,10 @@ const Header = () => {
                 <Github className="w-4 h-4" />
                 Community
               </a>
-              <Button variant="healing" size="sm" className="w-fit">
-                Start Your Reset
+              <Button variant="healing" size="sm" className="w-fit" asChild>
+                <a href="https://www.amazon.com/hz/wishlist/ls/35TOKXAVOW09Y?ref_=wl_share&tag=unfogged0f-20" target="_blank" rel="noopener noreferrer">
+                  Start Your Reset
+                </a>
               </Button>
             </nav>
           </div>
