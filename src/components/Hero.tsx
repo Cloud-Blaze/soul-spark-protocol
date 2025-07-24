@@ -47,7 +47,7 @@ const Hero = () => {
               <div className="text-6xl mb-4">✝️</div>
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-deep-teal mb-4">
-                  Break humanity's true cycle for <span className="text-primary text-3xl md:text-4xl">$60/month</span> for 3 months
+                  Break humanity's true alcoholism regret cycle for <span className="text-primary text-3xl md:text-4xl">$60/month</span> for 3 months
                 </h3>
                 <div className="space-y-3 text-lg text-deep-teal leading-relaxed">
                   <p className="font-medium">Because your kids deserve a whole parent.</p>
