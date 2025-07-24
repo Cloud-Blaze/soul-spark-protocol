@@ -67,9 +67,9 @@ const StackSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/20 border border-gold/30 text-primary text-sm font-medium mb-8">
-            <Sparkles className="w-4 h-4" />
-            Permission to repair: $60/month for 3 months
+          <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gold/20 border border-gold/30 text-primary text-lg font-bold mb-8">
+            <span className="text-2xl">✝️</span>
+            Break the cycle: <span className="text-xl">$60/month</span> for 3 months
           </div>
           
           <h2 className="text-3xl md:text-5xl font-bold text-deep-teal mb-6">

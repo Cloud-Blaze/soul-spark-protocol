@@ -42,17 +42,18 @@ const Hero = () => {
           </p>
 
           {/* Key Promise */}
-          <div className="bg-gradient-to-r from-sage/10 to-gold/10 rounded-xl p-6 mb-10 border border-sage/20">
+          <div className="bg-gradient-to-r from-sage/10 to-gold/10 rounded-xl p-8 mb-10 border border-sage/20 shadow-lg">
             <div className="flex items-start gap-4">
-              <Heart className="w-8 h-8 text-primary mt-1 flex-shrink-0" />
+              <div className="text-6xl mb-4">✝️</div>
               <div>
-                <h3 className="text-xl font-semibold text-deep-teal mb-2">
-                  90 Days. $60/month. Your brain back.
+                <h3 className="text-2xl md:text-3xl font-bold text-deep-teal mb-4">
+                  Break humanity's true cycle for <span className="text-primary text-3xl md:text-4xl">$60/month</span> for 3 months
                 </h3>
-                <p className="text-deep-teal/70 leading-relaxed">
-                  Because your kids deserve a whole parent. Because you remember who you were 
-                  before stress, trauma, and survival mode became your personality.
-                </p>
+                <div className="space-y-3 text-lg text-deep-teal leading-relaxed">
+                  <p className="font-medium">Because your kids deserve a whole parent.</p>
+                  <p>Because you remember the slammed doors, the yelling, the divorce, the silence, and the pain after.</p>
+                  <p className="font-medium text-primary">Because healing starts with one stubborn, holy decision.</p>
+                </div>
               </div>
             </div>
           </div>
