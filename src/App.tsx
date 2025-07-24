@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 import Blog from "./pages/Blog";
+import FoggedGeneration from "./pages/blog/FoggedGeneration";
 import NervousSystemRenaissance from "./pages/blog/NervousSystemRenaissance";
 import CourtOrderedClarity from "./pages/blog/CourtOrderedClarity";
 import AlcoholBanRipple from "./pages/blog/AlcoholBanRipple";
@@ -42,6 +43,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/fogged-generation" element={<FoggedGeneration />} />
           <Route path="/blog/nervous-system-renaissance" element={<NervousSystemRenaissance />} />
           <Route path="/blog/court-ordered-clarity" element={<CourtOrderedClarity />} />
           <Route path="/blog/alcohol-ban-ripple" element={<AlcoholBanRipple />} />

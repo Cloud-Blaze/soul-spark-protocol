@@ -5,6 +5,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "fogged-generation",
+    title: "📱 The Fogged Generation: What We Owe the iPad Kids",
+    excerpt: "There's a generation after Millennials that never knew the world before the fog. They were raised on screens, shaped by algorithms, and handed anxiety like a second backpack.",
+    emoji: "📱"
+  },
+  {
     slug: "nervous-system-renaissance",
     title: "🧠 The Nervous System Renaissance: Why AI Alone Won't Save Us",
     excerpt: "We're living in the second Renaissance. But we've built machines that think faster than we feel. And people are still too fogged to catch up.",
