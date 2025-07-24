@@ -100,6 +100,10 @@ const About = () => {
                   <p>
                     He's living proof that emotional sensitivity is not a disorder—and that behind every fogged adult is a creative child waiting to resurface.
                   </p>
+
+                  <p>
+                    After years of searching for his true calling across different ventures and life paths, David realized that open sourcing this protocol and its precise timing is exactly what the world needs right now. This isn't just another wellness trend—it's a movement to help humanity defog and become human again. In a world drowning in pharmaceutical solutions and quick fixes, David found his purpose in creating something that gives people permission to heal naturally, authentically, and without shame.
+                  </p>
                 </div>
               </div>
 
