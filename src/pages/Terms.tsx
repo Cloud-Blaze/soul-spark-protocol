@@ -23,11 +23,11 @@ const Terms = () => {
               <div className="flex items-center justify-center gap-8 text-sm text-deep-teal/60">
                 <div className="flex items-center gap-2">
                   <Shield className="w-4 h-4" />
-                  <span>Effective: January 2025</span>
+                  <span>Effective: July 24, 2025</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <FileText className="w-4 h-4" />
-                  <span>Last Updated: January 2025</span>
+                  <span>Last Updated: July 24, 2025</span>
                 </div>
               </div>
             </div>
