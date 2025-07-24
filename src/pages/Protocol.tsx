@@ -62,8 +62,10 @@ const Protocol = () => {
                 <Button variant="healing" size="lg">
                   Download Complete Protocol
                 </Button>
-                <Button variant="sacred" size="lg">
-                  Join Community Support
+                <Button variant="sacred" size="lg" asChild>
+                  <a href="https://github.com/unfogged/unfogged-protocol/" target="_blank" rel="noopener noreferrer">
+                    Join Community Support
+                  </a>
                 </Button>
               </div>
             </div>

@@ -48,9 +48,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/community" className="text-deep-teal/70 hover:text-primary transition-colors">
-                  Community Support
-                </Link>
+              <a href="https://github.com/unfogged/unfogged-protocol/" target="_blank" rel="noopener noreferrer" className="text-deep-teal/70 hover:text-primary transition-colors">
+                Community Support
+              </a>
               </li>
             </ul>
           </div>
