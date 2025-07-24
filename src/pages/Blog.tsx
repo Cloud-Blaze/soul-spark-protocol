@@ -5,6 +5,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "court-ordered-clarity",
+    title: "🏛️ Court-Ordered Clarity: A 90-Day Gummy Reconciliation Protocol",
+    excerpt: "What if divorce courts offered a 90-day nervous system reset before signing the final papers? Just one last invitation to heal the fog before breaking the home.",
+    emoji: "🏛️"
+  },
+  {
     slug: "alcohol-ban-ripple",
     title: "🚫 Could This Lead to an Alcohol Ban?",
     excerpt: "Maybe not today. Maybe not tomorrow. But imagine a world where alcohol is no longer glorified—because a generation proved life is better without it.",
