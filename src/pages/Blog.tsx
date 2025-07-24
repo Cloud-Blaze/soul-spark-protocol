@@ -5,6 +5,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "cross-functional-doctors",
+    title: "🧠 Where Are the Cross-Functional Doctors?",
+    excerpt: "The human nervous system is failing quietly in millions of people—and modern healthcare has no coordinated plan to fix it.",
+    emoji: "🧠"
+  },
+  {
     slug: "fogged-generation",
     title: "📱 The Fogged Generation: What We Owe the iPad Kids",
     excerpt: "There's a generation after Millennials that never knew the world before the fog. They were raised on screens, shaped by algorithms, and handed anxiety like a second backpack.",

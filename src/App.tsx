@@ -26,6 +26,7 @@ import PreDigitalMemoryReawakening from "./pages/blog/PreDigitalMemoryReawakenin
 import ReducedDeaths from "./pages/blog/ReducedDeaths";
 import TrueMarriageHealing from "./pages/blog/TrueMarriageHealing";
 import UnblockedProductivity from "./pages/blog/UnblockedProductivity";
+import CrossFunctionalDoctors from "./pages/blog/CrossFunctionalDoctors";
 
 const queryClient = new QueryClient();
 
@@ -58,6 +59,7 @@ const App = () => (
           <Route path="/blog/reduced-deaths" element={<ReducedDeaths />} />
           <Route path="/blog/true-marriage-healing" element={<TrueMarriageHealing />} />
           <Route path="/blog/unblocked-productivity" element={<UnblockedProductivity />} />
+          <Route path="/blog/cross-functional-doctors" element={<CrossFunctionalDoctors />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
