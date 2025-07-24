@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// UNFOGGED™ Brand Colors
+				indigo: 'hsl(var(--indigo))',
+				sand: 'hsl(var(--sand))',
+				'deep-teal': 'hsl(var(--deep-teal))',
+				sage: 'hsl(var(--sage))',
+				fog: 'hsl(var(--fog))',
+				gold: 'hsl(var(--gold))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

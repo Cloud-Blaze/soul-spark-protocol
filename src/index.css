@@ -8,35 +8,62 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* UNFOGGED™ Design System - Healing meets rebellion */
+    --background: 36 26% 94%; /* Sand - soft, grounded calm */
+    --foreground: 195 100% 19%; /* Deep teal - emotional depth */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 36 26% 94%;
+    --card-foreground: 195 100% 19%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 36 26% 94%;
+    --popover-foreground: 195 100% 19%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Indigo - introspection, consciousness */
+    --primary: 258 100% 26%; /* #4B0082 Indigo */
+    --primary-foreground: 36 26% 94%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Sage - nervous system recovery */
+    --secondary: 159 24% 71%; /* #9DBFAF Sage */
+    --secondary-foreground: 195 100% 19%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted: Fog gray - metaphor for mental haze */
+    --muted: 0 0% 83%; /* #D3D3D3 Fog gray */
+    --muted-foreground: 195 100% 19%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Warm gold - return to joy, soul spark */
+    --accent: 44 100% 67%; /* #FFC857 Warm gold */
+    --accent-foreground: 258 100% 26%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 36 26% 94%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 159 24% 80%;
+    --input: 159 24% 80%;
+    --ring: 258 100% 26%;
 
-    --radius: 0.5rem;
+    /* UNFOGGED™ Custom Design Tokens */
+    --indigo: 258 100% 26%; /* #4B0082 */
+    --sand: 36 26% 94%; /* #F3E9DC */
+    --deep-teal: 195 100% 19%; /* #005F5F */
+    --sage: 159 24% 71%; /* #9DBFAF */
+    --fog: 0 0% 83%; /* #D3D3D3 */
+    --gold: 44 100% 67%; /* #FFC857 */
+
+    /* Gradients */
+    --gradient-healing: linear-gradient(135deg, hsl(var(--indigo)), hsl(var(--deep-teal)));
+    --gradient-calm: linear-gradient(180deg, hsl(var(--sand)), hsl(var(--sage)));
+    --gradient-clarity: linear-gradient(45deg, hsl(var(--fog)), hsl(var(--sand)));
+    --gradient-spark: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--accent)));
+
+    /* Shadows - healing glow effects */
+    --shadow-healing: 0 10px 40px -10px hsl(var(--indigo) / 0.3);
+    --shadow-clarity: 0 8px 25px -8px hsl(var(--sage) / 0.4);
+    --shadow-spark: 0 0 30px hsl(var(--gold) / 0.2);
+
+    /* Animation */
+    --transition-healing: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
