@@ -6,6 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "systems-that-failed-us",
+    title: "💊 The Systems That Failed Us: How Unfogged Challenges Big Pharma and Burnout Culture",
+    excerpt: "There's a quiet war most people don't realize they're in—a war for their nervous system, clarity, and autonomy.",
+    emoji: "💊"
+  },
+  {
     slug: "earth-can-breathe",
     title: "🌍 When We Stop Masking Burnout: Earth Can Finally Breathe",
     excerpt: "Every time we numb instead of heal, we're spending energy to stay broken—and it's costing the planet.",
