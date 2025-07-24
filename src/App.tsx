@@ -3,6 +3,8 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { maintenanceConfig } from "@/config/maintenance";
+import { useEffect } from "react";
 import Index from "./pages/Index";
 import Protocol from "./pages/Protocol";
 import Stack from "./pages/Stack";
@@ -13,7 +15,20 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const App = () => (
+const App = () => {
+  // Check for maintenance mode
+  useEffect(() => {
+    if (maintenanceConfig.enabled) {
+      window.location.href = maintenanceConfig.redirectPath;
+    }
+  }, []);
+
+  // Don't render anything if maintenance mode is enabled
+  if (maintenanceConfig.enabled) {
+    return null;
+  }
+
+  return (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
@@ -32,6 +47,7 @@ const App = () => (
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
-);
+  );
+};
 
 export default App;
