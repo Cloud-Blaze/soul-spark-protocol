@@ -10,6 +10,19 @@ import Science from "./pages/Science";
 import About from "./pages/About";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
+import Blog from "./pages/Blog";
+import AlcoholBanRipple from "./pages/blog/AlcoholBanRipple";
+import ArtworkReturns from "./pages/blog/ArtworkReturns";
+import ClosetAnxiety from "./pages/blog/ClosetAnxiety";
+import EndOfPsycheGatekeeping from "./pages/blog/EndOfPsycheGatekeeping";
+import FunWithoutNumbing from "./pages/blog/FunWithoutNumbing";
+import InfiniteScrollZombification from "./pages/blog/InfiniteScrollZombification";
+import JesusAndTheHolocene from "./pages/blog/JesusAndTheHolocene";
+import PoliticsAndCompassion from "./pages/blog/PoliticsAndCompassion";
+import PreDigitalMemoryReawakening from "./pages/blog/PreDigitalMemoryReawakening";
+import ReducedDeaths from "./pages/blog/ReducedDeaths";
+import TrueMarriageHealing from "./pages/blog/TrueMarriageHealing";
+import UnblockedProductivity from "./pages/blog/UnblockedProductivity";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +39,19 @@ const App = () => (
           <Route path="/science" element={<Science />} />
           <Route path="/about" element={<About />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/alcohol-ban-ripple" element={<AlcoholBanRipple />} />
+          <Route path="/blog/artwork-returns" element={<ArtworkReturns />} />
+          <Route path="/blog/closet-anxiety" element={<ClosetAnxiety />} />
+          <Route path="/blog/end-of-psyche-gatekeeping" element={<EndOfPsycheGatekeeping />} />
+          <Route path="/blog/fun-without-numbing" element={<FunWithoutNumbing />} />
+          <Route path="/blog/infinite-scroll-zombification" element={<InfiniteScrollZombification />} />
+          <Route path="/blog/jesus-and-the-holocene" element={<JesusAndTheHolocene />} />
+          <Route path="/blog/politics-and-compassion" element={<PoliticsAndCompassion />} />
+          <Route path="/blog/pre-digital-memory-reawakening" element={<PreDigitalMemoryReawakening />} />
+          <Route path="/blog/reduced-deaths" element={<ReducedDeaths />} />
+          <Route path="/blog/true-marriage-healing" element={<TrueMarriageHealing />} />
+          <Route path="/blog/unblocked-productivity" element={<UnblockedProductivity />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
