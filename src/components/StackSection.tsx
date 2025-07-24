@@ -165,8 +165,10 @@ const StackSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="healing" size="lg">
-              Get the Complete Stack
+            <Button variant="healing" size="lg" asChild>
+              <a href="https://www.amazon.com/hz/wishlist/ls/35TOKXAVOW09Y?ref_=wl_share&tag=unfogged0f-20" target="_blank" rel="noopener noreferrer">
+                Get the Complete Stack
+              </a>
             </Button>
             <Button variant="clarity" size="lg">
               Start with Ashwagandha

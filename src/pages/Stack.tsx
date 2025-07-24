@@ -159,8 +159,10 @@ const Stack = () => {
                   <p className="text-deep-teal/70 mb-6">For 90 days of nervous system repair (~$60/month)</p>
                   
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button variant="healing" size="lg">
-                      Get Complete Stack
+                    <Button variant="healing" size="lg" asChild>
+                      <a href="https://www.amazon.com/hz/wishlist/ls/35TOKXAVOW09Y?ref_=wl_share&tag=unfogged0f-20" target="_blank" rel="noopener noreferrer">
+                        Get Complete Stack
+                      </a>
                     </Button>
                     <Button variant="clarity" size="lg">
                       Start with Essentials
