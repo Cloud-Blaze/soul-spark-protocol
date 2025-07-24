@@ -5,6 +5,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "nervous-system-renaissance",
+    title: "🧠 The Nervous System Renaissance: Why AI Alone Won't Save Us",
+    excerpt: "We're living in the second Renaissance. But we've built machines that think faster than we feel. And people are still too fogged to catch up.",
+    emoji: "🧠"
+  },
+  {
     slug: "court-ordered-clarity",
     title: "🏛️ Court-Ordered Clarity: A 90-Day Gummy Reconciliation Protocol",
     excerpt: "What if divorce courts offered a 90-day nervous system reset before signing the final papers? Just one last invitation to heal the fog before breaking the home.",
