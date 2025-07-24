@@ -19,19 +19,19 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/protocol" className="text-deep-teal hover:text-primary transition-colors">
+            <Link to="/protocol" className="text-foreground hover:text-primary transition-colors font-medium">
               Protocol
             </Link>
-            <Link to="/stack" className="text-deep-teal hover:text-primary transition-colors">
+            <Link to="/stack" className="text-foreground hover:text-primary transition-colors font-medium">
               The Stack
             </Link>
-            <Link to="/science" className="text-deep-teal hover:text-primary transition-colors">
+            <Link to="/science" className="text-foreground hover:text-primary transition-colors font-medium">
               Science
             </Link>
-            <Link to="/about" className="text-deep-teal hover:text-primary transition-colors">
+            <Link to="/about" className="text-foreground hover:text-primary transition-colors font-medium">
               About
             </Link>
-            <a href="https://github.com/unfogged/unfogged-protocol/" target="_blank" rel="noopener noreferrer" className="text-deep-teal hover:text-primary transition-colors flex items-center gap-1">
+            <a href="https://github.com/unfogged/unfogged-protocol/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors flex items-center gap-1 font-medium">
               <Github className="w-4 h-4" />
               Community
             </a>
@@ -48,9 +48,9 @@ const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
-              <X className="h-6 w-6 text-deep-teal" />
+              <X className="h-6 w-6 text-foreground" />
             ) : (
-              <Menu className="h-6 w-6 text-deep-teal" />
+              <Menu className="h-6 w-6 text-foreground" />
             )}
           </button>
         </div>
@@ -61,28 +61,28 @@ const Header = () => {
             <nav className="flex flex-col space-y-4">
               <Link 
                 to="/protocol" 
-                className="text-deep-teal hover:text-primary transition-colors"
+                className="text-foreground hover:text-primary transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Protocol
               </Link>
               <Link 
                 to="/stack" 
-                className="text-deep-teal hover:text-primary transition-colors"
+                className="text-foreground hover:text-primary transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 The Stack
               </Link>
               <Link 
                 to="/science" 
-                className="text-deep-teal hover:text-primary transition-colors"
+                className="text-foreground hover:text-primary transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Science
               </Link>
               <Link 
                 to="/about" 
-                className="text-deep-teal hover:text-primary transition-colors"
+                className="text-foreground hover:text-primary transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
@@ -91,7 +91,7 @@ const Header = () => {
                 href="https://github.com/unfogged/unfogged-protocol/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-deep-teal hover:text-primary transition-colors flex items-center gap-1"
+                className="text-foreground hover:text-primary transition-colors flex items-center gap-1 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <Github className="w-4 h-4" />

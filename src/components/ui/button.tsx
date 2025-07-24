@@ -13,16 +13,16 @@ const buttonVariants = cva(
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border border-sage bg-background/80 text-deep-teal hover:bg-sage/20 hover:border-primary",
+          "border border-sage bg-background/90 text-foreground hover:bg-sage/20 hover:border-primary",
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        // UNFOGGED™ Custom variants
-        healing: "bg-gradient-to-r from-indigo to-deep-teal text-sand hover:shadow-lg hover:shadow-indigo/25 hover:scale-105",
+        // UNFOGGED™ Custom variants - Improved mobile contrast
+        healing: "bg-gradient-to-r from-primary to-indigo text-primary-foreground hover:shadow-lg hover:shadow-primary/25 hover:scale-105",
         spark: "bg-gold text-primary hover:bg-gold/90 shadow-lg hover:shadow-xl hover:shadow-gold/25",
-        clarity: "bg-sage text-deep-teal hover:bg-sage/80 border border-sage/50",
-        sacred: "bg-background/80 backdrop-blur-sm border border-sage text-deep-teal hover:bg-sage/10 hover:border-primary",
+        clarity: "bg-sage text-foreground hover:bg-sage/80 border border-sage/50",
+        sacred: "bg-background/90 backdrop-blur-sm border border-sage text-foreground hover:bg-sage/15 hover:border-primary",
       },
       size: {
         default: "h-10 px-4 py-2",

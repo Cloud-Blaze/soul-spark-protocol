@@ -10,44 +10,44 @@ All colors MUST be HSL.
   :root {
     /* UNFOGGED™ Design System - Healing meets rebellion */
     --background: 36 26% 94%; /* Sand - soft, grounded calm */
-    --foreground: 195 100% 19%; /* Deep teal - emotional depth */
+    --foreground: 195 40% 25%; /* Lighter deep teal for better readability */
 
     --card: 36 26% 94%;
-    --card-foreground: 195 100% 19%;
+    --card-foreground: 195 40% 25%;
 
     --popover: 36 26% 94%;
-    --popover-foreground: 195 100% 19%;
+    --popover-foreground: 195 40% 25%;
 
     /* Primary: Indigo - introspection, consciousness */
-    --primary: 258 100% 26%; /* #4B0082 Indigo */
+    --primary: 258 85% 35%; /* Slightly lighter indigo for better contrast */
     --primary-foreground: 36 26% 94%;
 
     /* Secondary: Sage - nervous system recovery */
-    --secondary: 159 24% 71%; /* #9DBFAF Sage */
-    --secondary-foreground: 195 100% 19%;
+    --secondary: 159 30% 65%; /* Slightly more saturated sage */
+    --secondary-foreground: 195 60% 20%;
 
     /* Muted: Fog gray - metaphor for mental haze */
-    --muted: 0 0% 83%; /* #D3D3D3 Fog gray */
-    --muted-foreground: 195 100% 19%;
+    --muted: 0 0% 88%; /* Lighter fog gray */
+    --muted-foreground: 195 40% 30%;
 
     /* Accent: Warm gold - return to joy, soul spark */
-    --accent: 44 100% 67%; /* #FFC857 Warm gold */
-    --accent-foreground: 258 100% 26%;
+    --accent: 44 90% 65%; /* Slightly less intense gold */
+    --accent-foreground: 258 85% 35%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 36 26% 94%;
 
-    --border: 159 24% 80%;
-    --input: 159 24% 80%;
-    --ring: 258 100% 26%;
+    --border: 159 24% 75%;
+    --input: 159 24% 75%;
+    --ring: 258 85% 35%;
 
-    /* UNFOGGED™ Custom Design Tokens */
-    --indigo: 258 100% 26%; /* #4B0082 */
-    --sand: 36 26% 94%; /* #F3E9DC */
-    --deep-teal: 195 100% 19%; /* #005F5F */
-    --sage: 159 24% 71%; /* #9DBFAF */
-    --fog: 0 0% 83%; /* #D3D3D3 */
-    --gold: 44 100% 67%; /* #FFC857 */
+    /* UNFOGGED™ Custom Design Tokens - Improved for mobile readability */
+    --indigo: 258 85% 35%; /* Lighter for better contrast */
+    --sand: 36 26% 94%; /* F3E9DC */
+    --deep-teal: 195 40% 25%; /* Lighter teal for better readability */
+    --sage: 159 30% 65%; /* More vibrant sage */
+    --fog: 0 0% 88%; /* Lighter fog */
+    --gold: 44 90% 65%; /* Less harsh gold */
 
     /* Gradients */
     --gradient-healing: linear-gradient(135deg, hsl(var(--indigo)), hsl(var(--deep-teal)));
