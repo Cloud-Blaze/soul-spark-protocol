@@ -70,6 +70,14 @@ const Footer = () => {
                   support@unfogged.org
                 </a>
               </div>
+              <div className="text-deep-teal/70">
+                <Link to="/terms" className="hover:text-primary transition-colors block mb-2">
+                  Terms of Service
+                </Link>
+                <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors block">
+                  Creative Commons License
+                </a>
+              </div>
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5" />
                 <div className="text-deep-teal/70">

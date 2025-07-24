@@ -8,6 +8,7 @@ import Protocol from "./pages/Protocol";
 import Stack from "./pages/Stack";
 import Science from "./pages/Science";
 import About from "./pages/About";
+import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/stack" element={<Stack />} />
           <Route path="/science" element={<Science />} />
           <Route path="/about" element={<About />} />
+          <Route path="/terms" element={<Terms />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
