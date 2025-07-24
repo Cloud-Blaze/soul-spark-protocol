@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -5,6 +6,10 @@ import { Badge } from "@/components/ui/badge";
 import { Brain, Heart, Microscope, FlaskConical, BookOpen, Users, Sprout, MessageCircle } from "lucide-react";
 
 const Science = () => {
+  useEffect(() => {
+    document.title = "The Science Behind Healing | Unfogged - Evidence-Based Nervous System Protocol";
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />

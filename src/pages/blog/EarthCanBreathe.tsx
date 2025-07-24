@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const EarthCanBreathe = () => {
+  useEffect(() => {
+    document.title = "When We Stop Masking Burnout: Earth Can Finally Breathe | Unfogged Blog";
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />

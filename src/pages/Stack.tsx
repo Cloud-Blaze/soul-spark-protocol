@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, ExternalLink, Shield, DollarSign } from "lucide-react";
 
 const Stack = () => {
+  useEffect(() => {
+    document.title = "Complete Supplement Stack | Unfogged - Science-Backed Nervous System Repair";
+  }, []);
+
   const supplements = [
     {
       name: "Centrum MultiGummies + Omega-3",

@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 
 const CrossFunctionalDoctors = () => {
+  useEffect(() => {
+    document.title = "Where Are the Cross-Functional Doctors? | Unfogged Blog - Healthcare Systems & Nervous System Care";
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />

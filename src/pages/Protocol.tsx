@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Calendar, Clock, Target } from "lucide-react";
 
 const Protocol = () => {
+  useEffect(() => {
+    document.title = "90-Day Nervous System Reset Protocol | Unfogged - From Fog to Flow";
+  }, []);
+
   const phases = [
     {
       phase: "Days 1-10",

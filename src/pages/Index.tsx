@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ProblemSection from "@/components/ProblemSection";
@@ -6,6 +7,10 @@ import OpenSourceSection from "@/components/OpenSourceSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  useEffect(() => {
+    document.title = "Unfogged - From Fog to Flow | Nervous System Reset Protocol";
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
