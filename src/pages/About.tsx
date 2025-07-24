@@ -35,7 +35,7 @@ const About = () => {
 
                 <div className="prose prose-lg max-w-none text-deep-teal/80 leading-relaxed space-y-6">
                   <p>
-                    David Renne is a software engineer, creative strategist, and father who spent two decades living in what he now calls "the fog." Diagnosed with bipolar disorder and navigating the emotional and cognitive toll of alcohol use in college, David spent years building businesses, managing family life, and showing up for his daughter—while quietly feeling like he was drifting further from himself until he hit rock bottom and even found Christ in this journey of healing my inner demons and absolving the core issues.
+                    David Renne is a software engineer, creative strategist, and father who spent two decades living in what he now calls "the fog." Diagnosed with bipolar disorder in 2018 and navigating the emotional and cognitive toll of alcohol use in college, David spent years building businesses, managing family life, and showing up for his daughter—while quietly feeling like he was drifting further from himself until he hit rock bottom and even found Christ in this journey of healing my inner demons and absolving the core issues.
                   </p>
 
                   <p>
@@ -43,7 +43,7 @@ const About = () => {
                   </p>
 
                   <p>
-                    The tipping point came not with a crisis, but a moment of unexpected clarity: a single dose of ashwagandha lifted the edge off the fog. The effect wasn't euphoric—it was <strong className="text-primary">presence</strong>. In that moment, David saw not only his own disconnection, but the subtle burnout, mood volatility, and fog in the people he loved—including his wife. That experience became the beginning of a full protocol: built not from scratch, but from <strong className="text-primary">what worked</strong>.
+                    The tipping point came not with a crisis, but a moment of unexpected clarity: a single dose of ashwagandha lifted the edge off the fog. The effect wasn't euphoric mania—it was <strong className="text-primary">presence</strong>. In that moment, David saw not only his own disconnection, but the subtle burnout, mood volatility, and fog in the people he loved—including his wife. That experience became the beginning of a full protocol: built not from scratch, but from <strong className="text-primary">what worked</strong>.
                   </p>
 
                   <p>
@@ -106,7 +106,7 @@ const About = () => {
                   </p>
                   
                   <p>
-                    This is <strong className="text-primary">the whole symphony</strong> a <strong className="text-primary">symphony of my life</strong> and your potential life. I just unlocked it as I have been listening so close to my emotions and they guided me to this place on the internet. unfogged.org.
+                    This is <strong className="text-primary">the whole symphony</strong> a <strong className="text-primary">symphony of my life</strong> and your potential life if you take a baby step gummy on day one of 90 days. I just unlocked it as I have been listening so close to my emotions and they guided me to this place I created on the internet. unfogged.org.
                   </p>
 
                   <p>
@@ -135,7 +135,7 @@ const About = () => {
 
                   <p>
                     This isn't just about clarity.
-                    This is about <strong className="text-primary">stopping an intergenerational handoff of nervous system chaos</strong>.
+                    This is about <strong className="text-primary">stopping an intergenerational handoff of nervous system chaos that has possibly lasted eons on Earth</strong>.
                   </p>
 
                   <p>
@@ -153,8 +153,8 @@ const About = () => {
 
                   <p>
                     Because I almost lost my marriage.
-                    Because I almost passed the same song down to my daughter.
-                    Because God spoke to me in the stillness—and I listened.
+                    Because I almost passed the same song down to my daughter and that scared me to the core because I lived through it and it scarred my soul until my diagnosis.
+                    Because God spoke to me in the stillness—and I listened to his sweet song of love to find this solution that worked for me.
                   </p>
 
                   <p>
