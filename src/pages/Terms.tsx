@@ -118,7 +118,7 @@ const Terms = () => {
                     <div>
                       <h3 className="font-semibold text-deep-teal mb-2">Under These Terms:</h3>
                       <ul className="list-disc list-inside space-y-2 ml-4">
-                        <li><strong>Attribution</strong> — You must give appropriate credit to Unfogged™ and David Renne</li>
+                        <li><strong>Attribution</strong> — You must give appropriate credit to Unfogged™ and our soon to be built 501-C Organization</li>
                         <li><strong>NonCommercial</strong> — You may NOT use the material for commercial purposes</li>
                         <li><strong>No additional restrictions</strong> — You may not apply legal terms that legally restrict others from doing what the license permits</li>
                       </ul>
