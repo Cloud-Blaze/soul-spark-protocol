@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Check, Clock, Sparkles, Shield } from "lucide-react";
+import { Check, Clock, Sparkles, Shield, ShoppingCart } from "lucide-react";
 import nervousSystemHealing from "@/assets/nervous-system-healing.jpg";
 
 const StackSection = () => {
@@ -8,31 +8,36 @@ const StackSection = () => {
       name: "Centrum + Omega-3",
       purpose: "Foundational nutrients, B-vitamins, D3",
       dosage: "2 gummies morning",
-      cost: "$30/90 days"
+      cost: "$30/90 days",
+      link: "https://www.amazon.com/dp/B08YS3DW5G?tag=unfogged0f-20"
     },
     {
       name: "CoQ10",
       purpose: "Mitochondrial repair + brain energy",
       dosage: "1 gummy morning", 
-      cost: "$44/90 days"
+      cost: "$44/90 days",
+      link: "https://www.amazon.com/dp/B078NFVCJ7?tag=unfogged0f-20"
     },
     {
       name: "Ashwagandha",
       purpose: "Cortisol modulation, stress support",
       dosage: "2 gummies afternoon",
-      cost: "$60/90 days"
+      cost: "$60/90 days",
+      link: "https://www.amazon.com/dp/B0B8QGMLBS?tag=unfogged0f-20"
     },
     {
       name: "L-Theanine",
       purpose: "Calm without sedation, anxiety rescue",
       dosage: "1 gummy as needed",
-      cost: "$19/90 days"
+      cost: "$19/90 days",
+      link: "https://www.amazon.com/dp/B0D83F2TB5?tag=unfogged0f-20"
     },
     {
       name: "CALM Sleep Gummies",
       purpose: "Magnesium + Melatonin for repair",
       dosage: "2 gummies evening",
-      cost: "$50/90 days"
+      cost: "$50/90 days",
+      link: "https://www.amazon.com/dp/B085HK5LY2?tag=unfogged0f-20"
     }
   ];
 
@@ -87,11 +92,17 @@ const StackSection = () => {
                     <h4 className="font-semibold text-deep-teal">{supplement.name}</h4>
                     <span className="text-sm text-primary font-medium">{supplement.cost}</span>
                   </div>
-                  <p className="text-deep-teal/70 text-sm mb-2">{supplement.purpose}</p>
+                  <p className="text-deep-teal/70 text-sm mb-4">{supplement.purpose}</p>
                   <div className="flex items-center justify-between">
                     <span className="text-xs bg-sage/20 text-deep-teal px-3 py-1 rounded-full">
                       {supplement.dosage}
                     </span>
+                    <Button variant="outline" size="sm" asChild>
+                      <a href={supplement.link} target="_blank" rel="noopener noreferrer" className="text-xs">
+                        <ShoppingCart className="w-3 h-3 mr-1" />
+                        Try Individual
+                      </a>
+                    </Button>
                   </div>
                 </div>
               ))}
