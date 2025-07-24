@@ -59,8 +59,10 @@ const Protocol = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button variant="healing" size="lg">
-                  Download Complete Protocol
+                <Button variant="healing" size="lg" asChild>
+                  <a href="https://www.amazon.com/hz/wishlist/ls/35TOKXAVOW09Y?ref_=wl_share&tag=unfogged0f-20&viewType=list" target="_blank" rel="noopener noreferrer">
+                    Download Complete Protocol
+                  </a>
                 </Button>
                 <Button variant="sacred" size="lg" asChild>
                   <a href="https://github.com/unfogged/unfogged-protocol/" target="_blank" rel="noopener noreferrer">
