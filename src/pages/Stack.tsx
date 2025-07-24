@@ -24,7 +24,7 @@ const Stack = () => {
       link: "https://www.amazon.com/dp/B078NFVCJ7?tag=unfogged0f-20"
     },
     {
-      name: "Goli Ashwagandha Gummies",
+      name: "Nature Made Ashwagandha Gummies",
       purpose: "Cortisol and HPA regulation",
       dosage: "2 gummies/day (afternoon)",
       duration: "90 days = 180 gummies",
