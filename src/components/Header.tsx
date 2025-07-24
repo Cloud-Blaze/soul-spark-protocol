@@ -28,6 +28,9 @@ const Header = () => {
             <Link to="/science" className="text-foreground hover:text-primary transition-colors font-medium">
               Science
             </Link>
+            <Link to="/blog" className="text-foreground hover:text-primary transition-colors font-medium">
+              Impact Blog
+            </Link>
             <Link to="/about" className="text-foreground hover:text-primary transition-colors font-medium">
               About
             </Link>
@@ -79,6 +82,13 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Science
+              </Link>
+              <Link 
+                to="/blog" 
+                className="text-foreground hover:text-primary transition-colors font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Impact Blog
               </Link>
               <Link 
                 to="/about" 
