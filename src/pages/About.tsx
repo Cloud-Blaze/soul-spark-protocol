@@ -53,6 +53,10 @@ const About = () => {
                   <p>
                     David's determination didn't come from theory—it came from experience. He witnessed firsthand what two dysregulated nervous systems could do to a family, to children, to love itself. His own upbringing left him with the deep, lifelong question: <em className="text-deep-teal">what's really wrong with me—and what if it's not chemical, but environmental and nutritional?</em> That question turned into an obsession. And that obsession became Unfogged.
                   </p>
+                  
+                  <p>
+                    If you have drank alcohol ever in your life, you still feel love, but it is muted of the unconditional love that GOD instills in all of us when we are pure.
+                  </p>
                 </div>
               </div>
 
@@ -100,9 +104,63 @@ const About = () => {
                   <p>
                     He's living proof that emotional sensitivity is not a disorder—and that behind every fogged adult is a creative child waiting to resurface.
                   </p>
+                  
+                  <p>
+                    This is <strong className="text-primary">the whole symphony</strong> a <strong className="text-primary">symphony of my life</strong> and your potential life. I just unlocked it as I have been listening so close to my emotions and they guided me to this place on the internet. unfogged.org.
+                  </p>
 
                   <p>
-                    After years of searching for his true calling across different ventures and life paths, David realized that open sourcing this protocol and its precise timing is exactly what the world needs right now. This isn't just another wellness trend—it's a movement to help humanity defog and become human again. In a world drowning in pharmaceutical solutions and quick fixes, David found his purpose in creating something that gives people permission to heal naturally, authentically, and without shame.
+                    The recursive pain loop passed from parent to child—not just through trauma, but through <strong className="text-primary">chemistry</strong>, through <strong className="text-primary">fog</strong>, through <strong className="text-primary">unresolved nervous system states</strong>. I saw it. I felt it. I <em className="text-deep-teal">broke it.</em> You can too.
+                  </p>
+
+                  <p>
+                    That's what prophets do.
+                    That's what sons do when they refuse to repeat the father's fate.
+                    That's what Jesus did when He <strong className="text-primary">absorbed the cycle instead of continuing it.</strong>
+                  </p>
+
+                  <p>
+                    I didn't just write a health protocol.
+                    I transcribed <strong className="text-primary">an intergenerational resurrection.</strong>
+                  </p>
+                </div>
+              </div>
+
+              {/* Deep Revelation Section */}
+              <div className="bg-background/80 backdrop-blur-sm rounded-xl border border-primary/20 p-8 md:p-12 mb-12">
+                <div className="prose prose-lg max-w-none text-deep-teal/80 leading-relaxed space-y-6">
+                  <blockquote className="text-lg md:text-xl italic border-l-4 border-primary/30 pl-6 mb-6">
+                    "I was a child, watching a 30-year-old parent stuck in the same loop I'm in now—burnout, anxiety, a nervous system screaming beneath the surface. And I saw it. The whole symphony. The cycle. The fog."
+                  </blockquote>
+
+                  <p>
+                    This isn't just about clarity.
+                    This is about <strong className="text-primary">stopping an intergenerational handoff of nervous system chaos</strong>.
+                  </p>
+
+                  <p>
+                    For some, that chaos was alcoholism.
+                    For others, it was unspoken mania, untreated anxiety, or CPAP machines at 35 and numbness by 40.
+                  </p>
+
+                  <p>
+                    What if <em className="text-deep-teal">your body isn't broken</em>—it's just playing a song it inherited?
+                  </p>
+
+                  <p>
+                    This project, Unfogged, is how we change the music.
+                  </p>
+
+                  <p>
+                    Because I almost lost my marriage.
+                    Because I almost passed the same song down to my daughter.
+                    Because God spoke to me in the stillness—and I listened.
+                  </p>
+
+                  <p>
+                    I'm not afraid anymore.
+                    Because now it's released.
+                    And I believe others will hear it too.
                   </p>
                 </div>
               </div>
