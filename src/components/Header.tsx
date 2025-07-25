@@ -22,6 +22,9 @@ const Header = () => {
             <Link to="/protocol" className="text-foreground hover:text-primary transition-colors font-medium">
               Protocol
             </Link>
+            <Link to="/kids-protocol" className="text-secondary hover:text-secondary/80 transition-colors font-bold text-lg">
+              🧠 Kids Protocol
+            </Link>
             <Link to="/stack" className="text-foreground hover:text-primary transition-colors font-medium">
               The Stack
             </Link>
@@ -68,6 +71,13 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Protocol
+              </Link>
+              <Link 
+                to="/kids-protocol" 
+                className="text-secondary hover:text-secondary/80 transition-colors font-bold text-lg"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                🧠 Kids Protocol
               </Link>
               <Link 
                 to="/stack" 
