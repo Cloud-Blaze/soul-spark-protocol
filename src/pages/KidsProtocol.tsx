@@ -188,7 +188,7 @@ const KidsProtocol = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="text-lg px-8 py-6">
-                  <a href="https://www.amazon.com/hz/wishlist/ls/IF748ZETT3X9?ref_=wl_dp_view_your_list" target="_blank" rel="noopener noreferrer">Get the Protocol</a>
+                  <a href="https://www.amazon.com/hz/wishlist/ls/IF748ZETT3X9?ref_=wl_dp_view_your_list&tag=unfogged0f-20" target="_blank" rel="noopener noreferrer">Get the Protocol</a>
                 </Button>
                 <Button variant="outline" size="lg" className="text-lg px-8 py-6">
                   <a href="/science?tab=kids">Read the Science</a>
