@@ -417,12 +417,12 @@ const Science = () => {
                 <CardHeader>
                   <div className="flex items-center gap-3">
                     <Baby className="w-6 h-6 text-primary" />
-                    <CardTitle className="text-2xl text-deep-teal">Unfogged Kids: Research-Informed Protocol for Screen-Overstimulated Children (Ages 6–12)</CardTitle>
+                    <CardTitle className="text-2xl text-deep-teal">Unfogged Kids™: Research-Informed Protocol for Screen-Overstimulated Children (Ages 6–12)</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-deep-teal/70 leading-relaxed">
-                    Excessive screen exposure is now recognized as a leading factor in emotional dysregulation, dopamine system overstimulation, and attention fatigue in children. The Unfogged Kids protocol was developed to gently support nervous system reset using:
+                    Excessive screen exposure is now recognized as a leading factor in emotional dysregulation, dopamine system overstimulation, and attention fatigue in children. The Unfogged Kids™ protocol was developed to gently support nervous system reset using:
                   </p>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="p-4 bg-sage/10 rounded-lg border border-sage/20">
@@ -602,7 +602,7 @@ const Science = () => {
                   </div>
                   <div className="mt-6 p-4 bg-background rounded-lg border border-sage/20">
                     <p className="text-deep-teal/80 italic text-center">
-                      The Unfogged Kids protocol is not a treatment—it is a <strong>researched support system</strong> for children recovering from chronic overstimulation. Grounded in nutritional neuroscience and pediatric behavioral science, it gives families a verified foundation for restoring calm, attention, and emotional resilience—gently and affordably.
+                      The Unfogged Kids™ protocol is not a treatment—it is a <strong>researched support system</strong> for children recovering from chronic overstimulation. Grounded in nutritional neuroscience and pediatric behavioral science, it gives families a verified foundation for restoring calm, attention, and emotional resilience—gently and affordably.
                     </p>
                   </div>
                 </CardContent>

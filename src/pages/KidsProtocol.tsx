@@ -10,12 +10,12 @@ const KidsProtocol = () => {
   const { toast } = useToast();
 
   useEffect(() => {
-    document.title = "Unfogged Kids - 30-Day Dopamine Reset for Children | Screen-Stuck Generation";
+    document.title = "Unfogged Kids™ - 30-Day Dopamine Reset for Children | Screen-Stuck Generation";
   }, []);
 
   const handlePreOrder = () => {
     toast({
-      title: "🚀 UNFOGGED KIDS Launching Soon!",
+      title: "🚀 UNFOGGED KIDS™ Launching Soon!",
       description: (
         <div className="space-y-2">
           <p>We're putting the finishing touches on the 30-Day Reset Box.</p>
@@ -177,7 +177,7 @@ const KidsProtocol = () => {
                 <span className="text-6xl">🧠</span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                UNFOGGED KIDS
+                UNFOGGED KIDS™
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-foreground/90">
                 The 30-Day Dopamine Reset for the Screen-Stuck Generation
@@ -227,7 +227,7 @@ const KidsProtocol = () => {
                     We're witnessing the first full generation raised on <strong>dopamine superstimulus</strong>—bright screens, fast sounds, constant novelty. It's wrecking attention spans, delaying emotional development, and zombifying the spark in our kids.
                   </p>
                   <p className="text-lg leading-relaxed">
-                    <strong>UNFOGGED KIDS</strong> is a simple, non-prescription daily protocol that supports the nervous system, brain chemistry, and emotional baseline of overstimulated children.
+                    <strong>UNFOGGED KIDS™</strong> is a simple, non-prescription daily protocol that supports the nervous system, brain chemistry, and emotional baseline of overstimulated children.
                   </p>
                 </div>
               </div>
@@ -382,7 +382,7 @@ const KidsProtocol = () => {
               <h3 className="text-3xl font-bold mb-8 text-center">📦 THE 30-DAY RESET BOX</h3>
               <Card className="p-8">
                 <CardContent className="p-0">
-                  <h4 className="text-2xl font-bold mb-6 text-center">UNFOGGED KIDS: Complete Family Protocol</h4>
+                  <h4 className="text-2xl font-bold mb-6 text-center">UNFOGGED KIDS™: Complete Family Protocol</h4>
                   <p className="text-center text-lg mb-8">A beautiful, shelf-ready family protocol box.</p>
                   
                   <div className="grid md:grid-cols-2 gap-4 mb-8">
