@@ -22,7 +22,7 @@ const KidsProtocol = () => {
           <p>
             <strong>Get notified when it's ready:</strong>{" "}
             <a 
-              href="mailto:support@unfoggedkids.com?subject=Pre-Order%20Interest%20-%20UNFOGGED%20KIDS%2030-Day%20Reset%20Box&body=Hi!%20I'm%20interested%20in%20pre-ordering%20the%20UNFOGGED%20KIDS%2030-Day%20Reset%20Box.%20Please%20notify%20me%20when%20it's%20available.%0A%0AChild's%20age:%20%0ASpecial%20considerations:%20%0A%0AThank%20you!"
+              href="mailto:support@unfogged.org?subject=Pre-Order%20Interest%20-%20UNFOGGED%20KIDS%2030-Day%20Reset%20Box&body=Hi!%20I'm%20interested%20in%20pre-ordering%20the%20UNFOGGED%20KIDS%2030-Day%20Reset%20Box.%20Please%20notify%20me%20when%20it's%20available.%0A%0AChild's%20age:%20%0ASpecial%20considerations:%20%0A%0AThank%20you!"
               className="text-blue-600 hover:text-blue-800 underline"
             >
               Email our team
