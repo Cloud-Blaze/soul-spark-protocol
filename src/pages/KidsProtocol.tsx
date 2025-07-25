@@ -191,7 +191,7 @@ const KidsProtocol = () => {
                   Get the Protocol
                 </Button>
                 <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                  <a href="/science">Read the Science</a>
+                  <a href="/science?tab=kids">Read the Science</a>
                 </Button>
               </div>
             </div>
