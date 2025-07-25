@@ -276,14 +276,21 @@ const KidsProtocol = () => {
                 <CardContent className="p-0">
                   <h4 className="text-xl font-bold mb-4 text-red-800">🚫 CRITICAL: CoQ10 NOT RECOMMENDED FOR CHILDREN</h4>
                   <div className="space-y-3">
-                    <p className="text-red-700 font-semibold">
-                      CoQ10 supplementation in healthy children lacks sufficient safety data and is not recommended by major pediatric organizations.
+                    <p className="text-red-700 font-semibold text-lg">
+                      <strong>UNLIKE OUR ADULT PROTOCOL</strong> - CoQ10 supplementation in healthy children lacks sufficient safety data and is not recommended by major pediatric organizations.
                     </p>
-                    <p className="text-sm text-red-600">
-                      • No established safe dosage for children under 18<br/>
-                      • Limited long-term safety studies in pediatric populations<br/>
-                      • WHO/EFSA have not established safe upper limits for children<br/>
-                      • Focus on whole foods rich in CoQ10 (fish, meat, vegetables) instead
+                    <div className="bg-white p-4 rounded-lg border border-red-300">
+                      <p className="text-red-600 font-semibold mb-2">Why CoQ10 is excluded from the kids protocol:</p>
+                      <ul className="text-sm text-red-600 space-y-1">
+                        <li>• No established safe dosage for children under 18</li>
+                        <li>• Limited long-term safety studies in pediatric populations</li>
+                        <li>• WHO/EFSA have not established safe upper limits for children</li>
+                        <li>• Adult dosing cannot be safely scaled down for children</li>
+                        <li>• Focus on whole foods rich in CoQ10 (fish, meat, vegetables) instead</li>
+                      </ul>
+                    </div>
+                    <p className="text-red-800 font-bold text-center">
+                      If you're following our adult protocol, DO NOT give those CoQ10 supplements to children.
                     </p>
                   </div>
                 </CardContent>
