@@ -299,6 +299,11 @@ const KidsProtocol = () => {
         <section className="relative py-24 bg-gradient-to-br from-primary/5 via-background to-secondary/5">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
+              <div className="mb-6">
+                <h3 className="text-lg md:text-xl font-bold uppercase tracking-widest text-primary/80 mb-4">
+                  ENTER THE KIDS PROTOCOL™
+                </h3>
+              </div>
               <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
                 <strong>Research-backed. Parent-tested. Kid-approved.</strong><br/>
                 A natural gummy protocol based on international studies to help modern children return to baseline—calm, creative, and focused like it's 1987 again.
