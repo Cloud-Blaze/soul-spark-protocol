@@ -16,28 +16,76 @@ const KidsProtocol = () => {
       gummy: "Omega-3 DHA",
       dosage: "250mg",
       function: "Brain growth, mood, memory, focus",
-      icon: Brain
+      icon: Brain,
+      products: [
+        {
+          name: "DR. MORITZ Omega 3 Kids Gummies",
+          note: "Vegan algae-based, no fish oil, gluten-free",
+          link: "https://www.amazon.com/DR-MORITZ-Gummies-Vitamins-Gluten-Free/dp/B0CS7YSWN4"
+        },
+        {
+          name: "Nordic Naturals Zero Sugar Children's DHA", 
+          note: "Pediatrician recommended, 2 fishies/day",
+          link: "https://www.amazon.com/Nordic-Naturals-Childrens-DHA-Gummies/dp/B07WMZTX28"
+        }
+      ]
     },
     {
       time: "🧠 Morning",
       gummy: "B6 + B12 Complex",
       dosage: "Low-dose",
       function: "Dopamine & serotonin support",
-      icon: Sparkles
+      icon: Sparkles,
+      products: [
+        {
+          name: "WellYeah B-Complex Gummies for Kids",
+          note: "Balanced ratios, safe for daily use (B6: 2mg)",
+          link: "https://www.amazon.com/WellYeah-Complex-Gummies-Kids-Pantothenic/dp/B0CLMFMSVW"
+        },
+        {
+          name: "Multi B Vitamin Gummies for Kids",
+          note: "Broader support, balanced dosage",
+          link: "https://www.amazon.com/Vitamin-Complex-Kids-Multivitamins-Pantothenic/dp/B0BKLGKFHY"
+        }
+      ]
     },
     {
       time: "🕓 Afternoon",
       gummy: "L-Theanine",
       dosage: "50–100mg",
       function: "Calm focus after school / screen time",
-      icon: Clock
+      icon: Clock,
+      products: [
+        {
+          name: "Jarrow Formulas Theanine 100mg Gummies",
+          note: "Easy to split if needed, clearly dosed",
+          link: "https://www.amazon.com/Jarrow-Formulas-Theanine-Promotes-Learning/dp/B01GFJE4LU"
+        },
+        {
+          name: "Kind Nature L-Theanine Gummies (200mg)",
+          note: "Vegan, gluten-free, use 1/2 gummy",
+          link: "https://www.amazon.com/Kind-Nature-L-Theanine-Gummies-Adults/dp/B0CZ6TMTW8"
+        }
+      ]
     },
     {
       time: "🌙 Evening",
       gummy: "Magnesium Glycinate",
       dosage: "100–150mg",
       function: "Sleep, nervous system repair",
-      icon: Moon
+      icon: Moon,
+      products: [
+        {
+          name: "ReviNutra Magnesium Glycinate Gummies",
+          note: "Sugar-free, melatonin-free, includes L-Theanine + B6",
+          link: "https://www.amazon.com/Magnesium-Gummies-Kids-L-Threonate-Supplement/dp/B0D9BT7C69"
+        },
+        {
+          name: "NutraPep Magnesium Glycinate Gummies",
+          note: "Vegan, gluten-free, sugar-free (150mg)",
+          link: "https://www.amazon.com/Magnesium-Glycinate-Gummies-Adults-Women/dp/B0CQW5NDWJ"
+        }
+      ]
     }
   ];
 
@@ -156,16 +204,36 @@ const KidsProtocol = () => {
                   const IconComponent = item.icon;
                   return (
                     <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
-                      <CardContent className="p-0 flex items-center gap-6">
-                        <div className="flex-shrink-0">
-                          <IconComponent className="w-12 h-12 text-primary" />
-                        </div>
-                        <div className="flex-grow">
-                          <div className="grid md:grid-cols-4 gap-4 items-center">
-                            <div className="font-semibold text-lg">{item.time}</div>
-                            <div className="font-bold text-primary">{item.gummy}</div>
-                            <div className="text-muted-foreground">{item.dosage}</div>
-                            <div className="text-sm">{item.function}</div>
+                      <CardContent className="p-0">
+                        <div className="flex items-start gap-6 mb-4">
+                          <div className="flex-shrink-0">
+                            <IconComponent className="w-12 h-12 text-primary" />
+                          </div>
+                          <div className="flex-grow">
+                            <div className="grid md:grid-cols-4 gap-4 items-center mb-4">
+                              <div className="font-semibold text-lg">{item.time}</div>
+                              <div className="font-bold text-primary">{item.gummy}</div>
+                              <div className="text-muted-foreground">{item.dosage}</div>
+                              <div className="text-sm">{item.function}</div>
+                            </div>
+                            
+                            {/* Product recommendations */}
+                            <div className="space-y-3 pt-4 border-t border-border/30">
+                              <h4 className="font-semibold text-sm text-muted-foreground">RECOMMENDED PRODUCTS:</h4>
+                              {item.products?.map((product, productIndex) => (
+                                <div key={productIndex} className="bg-muted/30 p-3 rounded-lg">
+                                  <a 
+                                    href={product.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="font-medium text-primary hover:text-primary/80 transition-colors"
+                                  >
+                                    🛒 {product.name}
+                                  </a>
+                                  <p className="text-sm text-muted-foreground mt-1">{product.note}</p>
+                                </div>
+                              ))}
+                            </div>
                           </div>
                         </div>
                       </CardContent>
@@ -177,11 +245,16 @@ const KidsProtocol = () => {
               <Card className="p-6 bg-secondary/10">
                 <CardContent className="p-0">
                   <h4 className="text-xl font-bold mb-4">🌀 Optional (2–3x/week)</h4>
-                  <div className="grid md:grid-cols-4 gap-4 items-center">
+                  <div className="grid md:grid-cols-4 gap-4 items-center mb-4">
                     <div className="font-semibold">Midday</div>
                     <div className="font-bold text-primary">CoQ10</div>
                     <div className="text-muted-foreground">30–50mg</div>
                     <div className="text-sm">Energy + cell support on no-screen days</div>
+                  </div>
+                  <div className="bg-muted/30 p-3 rounded-lg">
+                    <p className="text-sm text-muted-foreground">
+                      <strong>Note:</strong> CoQ10 gummies for kids are less common. Consider liquid CoQ10 supplements mixed into smoothies or consult pediatrician for alternatives.
+                    </p>
                   </div>
                 </CardContent>
               </Card>
@@ -305,6 +378,19 @@ const KidsProtocol = () => {
                   </CardContent>
                 </Card>
               </div>
+              
+              {/* Safety Warnings */}
+              <Card className="p-6 bg-red-50 border-red-200">
+                <CardContent className="p-0">
+                  <h4 className="font-bold mb-4 text-red-800">⚠️ Important Safety Notes</h4>
+                  <ul className="space-y-2 text-sm text-red-700">
+                    <li>• Recent recalls on B12 gummies (VitaGlobe, Berkley Jensen) due to peanut contamination - avoid these brands</li>
+                    <li>• <strong>Never use melatonin gummies</strong> without medical oversight - some UK magnesium gummies contained hidden melatonin</li>
+                    <li>• Always check third-party testing labels for purity</li>
+                    <li>• Start with lowest recommended doses and monitor your child's response</li>
+                  </ul>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
