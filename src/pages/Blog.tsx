@@ -102,6 +102,12 @@ const blogPosts = [
     emoji: "🚑"
   },
   {
+    slug: "marriage-healing",
+    title: "❤️ When the Fog Lifts: How Sobriety Can Save a Marriage",
+    excerpt: "A father starts the 90-day protocol, and one morning he remembers how much he once loved his wife. That spark didn't die—it got fogged.",
+    emoji: "❤️"
+  },
+  {
     slug: "true-marriage-healing",
     title: "❤️ Love Comes Back When the Fog Lifts",
     excerpt: "When the fog lifts from the nervous system, feelings return. You start to feel your spouse's eyes on you.",

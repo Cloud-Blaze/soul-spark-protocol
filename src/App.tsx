@@ -26,6 +26,7 @@ import PoliticsAndCompassion from "./pages/blog/PoliticsAndCompassion";
 import PreDigitalMemoryReawakening from "./pages/blog/PreDigitalMemoryReawakening";
 import ReducedDeaths from "./pages/blog/ReducedDeaths";
 import TrueMarriageHealing from "./pages/blog/TrueMarriageHealing";
+import MarriageHealing from "./pages/blog/MarriageHealing";
 import UnblockedProductivity from "./pages/blog/UnblockedProductivity";
 import SystemsThatFailedUs from "./pages/blog/SystemsThatFailedUs";
 import EarthCanBreathe from "./pages/blog/EarthCanBreathe";
@@ -63,6 +64,7 @@ const App = () => (
           <Route path="/blog/politics-and-compassion" element={<PoliticsAndCompassion />} />
           <Route path="/blog/pre-digital-memory-reawakening" element={<PreDigitalMemoryReawakening />} />
           <Route path="/blog/reduced-deaths" element={<ReducedDeaths />} />
+          <Route path="/blog/marriage-healing" element={<MarriageHealing />} />
           <Route path="/blog/true-marriage-healing" element={<TrueMarriageHealing />} />
           <Route path="/blog/unblocked-productivity" element={<UnblockedProductivity />} />
           <Route path="/blog/cross-functional-doctors" element={<CrossFunctionalDoctors />} />
