@@ -607,7 +607,7 @@ const KidsProtocol = () => {
               
               <div className="bg-card p-8 rounded-lg border">
                 <p className="text-lg leading-relaxed mb-6">
-                  This isn't a trend. It's a <strong>reclamation of childhood</strong>.
+                  This isn't a trend. It's a <strong>reclamation of childhood prior to the first smart screen and internet videos taking over</strong>.
                 </p>
                 <p className="text-lg leading-relaxed mb-6">
                   Our mission isn't to medicate children—it's to <strong>protect their spark</strong>.
