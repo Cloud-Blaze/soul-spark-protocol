@@ -48,7 +48,7 @@ const About = () => {
                   </p>
 
                   <p>
-                    The tipping point came not with a crisis, but a moment of unexpected clarity: a single dose of ashwagandha lifted the edge off the fog. The effect wasn't euphoric mania—it was <strong className="text-primary">presence</strong>. In that moment, David saw not only his own disconnection, but the subtle burnout, mood volatility, and fog in the people he loved who were overloaded with stresses of the internet culture. That experience became the beginning of a full protocol: built not from scratch, but from <strong className="text-primary">what worked</strong>.
+                    The tipping point came not with a crisis, but a moment of unexpected clarity: a single dose of ashwagandha lifted the edge off the fog. The effect wasn't euphoric mania—it was <strong className="text-primary">presence</strong>. In that moment, David saw not only his own disconnection, but the subtle burnout, mood volatility, and fog in the people he loved who were overloaded with stresses of the internet culture. Humans didnt all used to be this stressed at night in the 80's they were present for their children because all they had was a TV and a beer.  Not social media distractions and endless doom scrolling and anxiety numbness.  That experience became the beginning of a full protocol: built not from scratch, but from <strong className="text-primary">what worked</strong>.
                   </p>
 
                   <p>
