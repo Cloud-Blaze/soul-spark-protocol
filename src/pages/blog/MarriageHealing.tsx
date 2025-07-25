@@ -19,7 +19,7 @@ const MarriageHealing = () => {
 
           <article className="prose prose-lg max-w-none">
             <div className="text-center mb-12">
-              <div className="text-6xl mb-4">❤️</div>
+              <div className="text-6xl mb-4">👨</div>
               <h1 className="text-4xl md:text-5xl font-bold text-deep-teal mb-6">
                 When the Fog Lifts: How Sobriety Can Save a Marriage
               </h1>

@@ -6,6 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "marriage-healing",
+    title: "👨 When the Fog Lifts: How Sobriety Can Save a Marriage",
+    excerpt: "A father starts the 90-day protocol, and one morning he remembers how much he once loved his wife. That spark didn't die—it got fogged.",
+    emoji: "👨"
+  },
+  {
     slug: "systems-that-failed-us",
     title: "💊 The Systems That Failed Us: How Unfogged Challenges Big Pharma and Burnout Culture",
     excerpt: "There's a quiet war most people don't realize they're in—a war for their nervous system, clarity, and autonomy.",
@@ -100,12 +106,6 @@ const blogPosts = [
     title: "🚑 Less Death. Less Harm. More Presence.",
     excerpt: "Every life lost in a drunk driving accident... every overdose—it's not just a statistic. It's a nervous system that never got to rest.",
     emoji: "🚑"
-  },
-  {
-    slug: "marriage-healing",
-    title: "❤️ When the Fog Lifts: How Sobriety Can Save a Marriage",
-    excerpt: "A father starts the 90-day protocol, and one morning he remembers how much he once loved his wife. That spark didn't die—it got fogged.",
-    emoji: "❤️"
   },
   {
     slug: "true-marriage-healing",
