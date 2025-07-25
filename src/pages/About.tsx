@@ -123,7 +123,6 @@ const About = () => {
                   </p>
 
                   <p>
-                    That's what prophets do.
                     That's what sons do when they refuse to repeat the father's fate.
                     That's what Jesus did when He <strong className="text-primary">absorbed the cycle instead of continuing it.</strong>
                   </p>
