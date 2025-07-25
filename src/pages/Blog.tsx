@@ -6,6 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "before-the-coffee",
+    title: "☀️ Before the Coffee, Before the Chaos: A 90-Day Return to Who You Were",
+    excerpt: "There was a time—before the phone alarms, before the cold brew, before the tight chest and the adult fog—when we woke up clear.",
+    emoji: "☀️"
+  },
+  {
     slug: "marriage-healing",
     title: "👨 When the Fog Lifts: How Sobriety Can Save a Marriage",
     excerpt: "A father starts the 90-day protocol, and one morning he remembers how much he once loved his wife. That spark didn't die—it got fogged.",
