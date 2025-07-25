@@ -169,6 +169,115 @@ const KidsProtocol = () => {
           </div>
         </section>
 
+        {/* History Section - How We Got Here */}
+        <section className="py-20 bg-gradient-to-b from-background to-muted/20">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center mb-12">
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                  📺 The Forgotten History of Calm Childhoods
+                </h2>
+                <p className="text-xl text-muted-foreground">
+                  <strong>Before the dopamine flood, kids were wired for wonder—not stimulation.</strong>
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-8 mb-12">
+                <Card className="p-6 hover:shadow-lg transition-all duration-300">
+                  <CardContent className="p-0">
+                    <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
+                      <span className="text-3xl">🏠</span>
+                      1. The 1980s Home
+                    </h3>
+                    <ul className="space-y-3 text-lg">
+                      <li>• Children grew up with <strong>a handful of books, a family TV</strong>, and maybe a cassette player.</li>
+                      <li>• Screen time was scheduled, not endless.</li>
+                      <li>• Boredom wasn't feared—it sparked imagination.</li>
+                      <li>• Attention spans stretched naturally because the world moved slower.</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+
+                <Card className="p-6 hover:shadow-lg transition-all duration-300">
+                  <CardContent className="p-0">
+                    <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
+                      <span className="text-3xl">🎮</span>
+                      2. The 1990s Shift
+                    </h3>
+                    <ul className="space-y-3 text-lg">
+                      <li>• Game consoles entered the home.</li>
+                      <li>• Saturday morning cartoons got faster, louder, flashier.</li>
+                      <li>• Personal computers arrived—but they were still limited.</li>
+                      <li>• Childhood began accelerating, but the brakes still worked.</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+
+                <Card className="p-6 hover:shadow-lg transition-all duration-300">
+                  <CardContent className="p-0">
+                    <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
+                      <span className="text-3xl">💥</span>
+                      3. The 2000s Explosion
+                    </h3>
+                    <ul className="space-y-3 text-lg">
+                      <li>• Smartphones. YouTube. Wi-Fi everywhere.</li>
+                      <li>• Screens went from the family room to every room.</li>
+                      <li>• Parents, overwhelmed and stretched thin, used screens for relief.</li>
+                      <li>• <strong>Children became the first dopamine-native generation.</strong></li>
+                    </ul>
+                  </CardContent>
+                </Card>
+
+                <Card className="p-6 hover:shadow-lg transition-all duration-300 border-red-200 bg-red-50">
+                  <CardContent className="p-0">
+                    <h3 className="text-2xl font-bold mb-4 flex items-center gap-3 text-red-800">
+                      <span className="text-3xl">🚨</span>
+                      4. Today's Reality
+                    </h3>
+                    <ul className="space-y-3 text-lg text-red-700">
+                      <li>• The average child now sees <strong>thousands of fast cuts, pings, and pop-ups</strong> per day.</li>
+                      <li>• Books are replaced by bite-sized content.</li>
+                      <li>• Meltdowns happen when devices are taken away—not because kids are bad, but because <strong>their reward system has been hijacked.</strong></li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
+
+              <div className="text-center mb-12">
+                <Card className="p-8 bg-gradient-to-br from-yellow-50 to-orange-50 border-yellow-200">
+                  <CardContent className="p-0">
+                    <h3 className="text-2xl font-bold mb-4 text-yellow-800">🚨 What We Forgot</h3>
+                    <p className="text-lg mb-4 text-yellow-700">
+                      In just two generations, we went from <strong>shared storytime</strong> to <strong>solitary screen scrolls</strong>—without stopping to ask:
+                    </p>
+                    <blockquote className="text-xl font-semibold text-yellow-800 italic border-l-4 border-yellow-400 pl-4 my-6">
+                      "Can a developing brain handle this much stimulation?"
+                    </blockquote>
+                    <p className="text-lg text-yellow-700">
+                      Most parents don't know this history.<br/>
+                      They're just surviving. They hand the device over with love.<br/>
+                      But love isn't enough when the system is rigged.
+                    </p>
+                  </CardContent>
+                </Card>
+              </div>
+
+              <div className="text-center">
+                <Card className="p-8 bg-gradient-to-br from-green-50 to-emerald-50 border-green-200">
+                  <CardContent className="p-0">
+                    <h3 className="text-2xl font-bold mb-4 text-green-800">✨ The Reset</h3>
+                    <p className="text-lg text-green-700 mb-4">
+                      We're not anti-technology. We're pro-childhood.<br/>
+                      It's time to re-teach the nervous system what <strong>enough</strong> feels like.<br/>
+                      And that starts with remembering where we came from.
+                    </p>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Hero Section */}
         <section className="relative py-24 bg-gradient-to-br from-primary/5 via-background to-secondary/5">
           <div className="container mx-auto px-4">
