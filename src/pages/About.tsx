@@ -143,7 +143,7 @@ const About = () => {
 
                   <p>
                     This isn't just about clarity.
-                    This is about <strong className="text-primary">stopping an intergenerational handoff of nervous system chaos that has possibly lasted eons on Earth</strong>.
+                    This is about <strong className="text-primary">stopping an intergenerational handoff of nervous system chaos that has possibly lasted eons on Earth</strong>.  But children always faired well in previous generations because they never got into a dopamine screen regiment that the internet generation caused.
                   </p>
 
                   <p>
