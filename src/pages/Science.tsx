@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -7,8 +7,17 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Brain, Heart, Microscope, FlaskConical, BookOpen, Users, Sprout, MessageCircle, Baby } from "lucide-react";
 
 const Science = () => {
+  const [activeTab, setActiveTab] = useState("adult");
+
   useEffect(() => {
     document.title = "The Science Behind Healing | Unfogged - Evidence-Based Nervous System Protocol";
+    
+    // Check URL params for tab selection
+    const urlParams = new URLSearchParams(window.location.search);
+    const tabParam = urlParams.get('tab');
+    if (tabParam === 'kids') {
+      setActiveTab('kids');
+    }
   }, []);
 
   return (
@@ -63,7 +72,7 @@ const Science = () => {
       {/* Tabbed Research Sections */}
       <section className="py-16 bg-gradient-to-b from-background to-sage/10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <Tabs defaultValue="adult" className="w-full">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <div className="flex justify-center mb-12">
               <TabsList className="grid w-full max-w-md grid-cols-2">
                 <TabsTrigger value="adult" className="flex items-center gap-2">
