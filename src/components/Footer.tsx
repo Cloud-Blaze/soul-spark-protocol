@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="text-2xl font-bold bg-gradient-to-r from-indigo to-deep-teal bg-clip-text text-transparent mb-4">
-              UNFOGGED™
+              UNFOGGED™ AND UNFOGGED KIDS™
             </div>
             <p className="text-deep-teal/70 leading-relaxed mb-6 max-w-md">
               The open-source nervous system stack for anyone ready to reclaim 
@@ -94,7 +94,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-sage/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm text-deep-teal/60">
-              © 2024 UNFOGGED™. Released under Creative Commons Attribution-NonCommercial 4.0.
+              © 2024 UNFOGGED™ AND UNFOGGED KIDS™. Released under Creative Commons Attribution-NonCommercial 4.0.
             </div>
             <div className="flex items-center gap-6 text-xs text-deep-teal/50">
               <span>✓ No prescriptions</span>

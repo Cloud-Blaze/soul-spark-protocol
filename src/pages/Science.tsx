@@ -29,7 +29,7 @@ const Science = () => {
               The Science Behind Healing
             </h1>
             <p className="text-xl text-deep-teal/70 leading-relaxed max-w-3xl mx-auto">
-              Every component in the UNFOGGED™ stack is backed by clinical research, 
+              Every component in the UNFOGGED™ AND UNFOGGED KIDS™ stack is backed by clinical research, 
               nutritional science, and the sacred understanding that your nervous system 
               deserves repair—not just management.
             </p>
@@ -205,7 +205,7 @@ const Science = () => {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-deep-teal mb-3">UNFOGGED™ Approach</h4>
+                      <h4 className="font-semibold text-deep-teal mb-3">UNFOGGED™ AND UNFOGGED KIDS™ Approach</h4>
                       <ul className="space-y-2 text-sm text-deep-teal/70">
                         <li>• Gentle nervous system support</li>
                         <li>• Nutritional scaffolding for natural healing</li>

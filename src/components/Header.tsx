@@ -13,7 +13,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="text-2xl font-bold md:bg-gradient-to-r md:from-indigo md:to-deep-teal md:bg-clip-text md:text-transparent text-white md:text-transparent">
-              UNFOGGED™
+              UNFOGGED™ AND UNFOGGED KIDS™
             </div>
           </Link>
 
