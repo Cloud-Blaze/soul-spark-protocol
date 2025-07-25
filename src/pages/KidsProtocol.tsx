@@ -4,11 +4,35 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Brain, Heart, Sun, Moon, Sparkles, Clock } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 const KidsProtocol = () => {
+  const { toast } = useToast();
+
   useEffect(() => {
     document.title = "Unfogged Kids - 30-Day Dopamine Reset for Children | Screen-Stuck Generation";
   }, []);
+
+  const handlePreOrder = () => {
+    toast({
+      title: "🚀 UNFOGGED KIDS Launching Soon!",
+      description: (
+        <div className="space-y-2">
+          <p>We're putting the finishing touches on the 30-Day Reset Box.</p>
+          <p>
+            <strong>Get notified when it's ready:</strong>{" "}
+            <a 
+              href="mailto:support@unfoggedkids.com?subject=Pre-Order%20Interest%20-%20UNFOGGED%20KIDS%2030-Day%20Reset%20Box&body=Hi!%20I'm%20interested%20in%20pre-ordering%20the%20UNFOGGED%20KIDS%2030-Day%20Reset%20Box.%20Please%20notify%20me%20when%20it's%20available.%0A%0AChild's%20age:%20%0ASpecial%20considerations:%20%0A%0AThank%20you!"
+              className="text-blue-600 hover:text-blue-800 underline"
+            >
+              Email our team
+            </a>
+          </p>
+        </div>
+      ),
+      duration: 8000,
+    });
+  };
 
   const gummySchedule = [
     {
@@ -375,7 +399,7 @@ const KidsProtocol = () => {
                   </div>
                   
                   <div className="text-center">
-                    <Button size="lg" className="text-lg px-12 py-6">
+                    <Button size="lg" className="text-lg px-12 py-6" onClick={handlePreOrder}>
                       Pre-Order Now
                     </Button>
                   </div>
