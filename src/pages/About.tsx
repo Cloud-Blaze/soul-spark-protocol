@@ -60,7 +60,11 @@ const About = () => {
                   </p>
                   
                   <p>
-                    If you have drank alcohol ever in your life, you still feel love, but it is muted of the unconditional love that GOD instills in all of us when we are pure.
+                    This work represents 30 years of deep listening—tuning into what's really happening across different systems. From personal experience to family dynamics, from spiritual awakening to nervous system science, David has spent three decades piecing together patterns that traditional medicine often misses. His hope is simple: that this protocol helps at least one person in the world recognize when their central nervous system needs healing.
+                  </p>
+                  
+                  <p>
+                    If you have ever consumed alcohol in your life, you still feel love, but it is muted compared to the unconditional love that God instills in all of us when we are pure.
                   </p>
                 </div>
               </div>
