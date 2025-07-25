@@ -9,6 +9,15 @@ const About = () => {
     document.title = "About David Renne - Unfogged Founder | Breaking Intergenerational Nervous System Cycles";
   }, []);
 
+/*
+
+                  <p>
+                    Because I almost lost my marriage.
+                    Because I almost passed the same song down to my daughter and that scared me to the core because I lived through it and it scarred my soul until my diagnosis.
+                    Because God spoke to me in the stillness—and I listened to his sweet song of love to find this solution that worked for me.
+                  </p>
+*/
+  
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -157,12 +166,6 @@ const About = () => {
 
                   <p>
                     This project, Unfogged, is how we change the music.
-                  </p>
-
-                  <p>
-                    Because I almost lost my marriage.
-                    Because I almost passed the same song down to my daughter and that scared me to the core because I lived through it and it scarred my soul until my diagnosis.
-                    Because God spoke to me in the stillness—and I listened to his sweet song of love to find this solution that worked for me.
                   </p>
 
                   <p>
