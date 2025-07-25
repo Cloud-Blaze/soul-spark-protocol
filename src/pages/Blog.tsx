@@ -6,6 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "fog-children-safety",
+    title: "🛡️ The Fog Is Why Our Children Aren't Safe Anymore",
+    excerpt: "We like to talk about safety in terms of laws, neighborhoods, school rules… But the real threat to our children? Fogged-out adults.",
+    emoji: "🛡️"
+  },
+  {
     slug: "before-the-coffee",
     title: "☀️ Before the Coffee, Before the Chaos: A 90-Day Return to Who You Were",
     excerpt: "There was a time—before the phone alarms, before the cold brew, before the tight chest and the adult fog—when we woke up clear.",
