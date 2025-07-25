@@ -146,6 +146,23 @@ const KidsProtocol = () => {
     <div className="min-h-screen bg-background">
       <Header />
       <main className="pt-16">
+        {/* Title Section */}
+        <section className="py-12 bg-gradient-to-br from-primary/5 via-background to-secondary/5">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="mb-6">
+                <span className="text-6xl">🧠</span>
+              </div>
+              <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                UNFOGGED KIDS™
+              </h1>
+              <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-foreground/90">
+                The 30-Day Dopamine Reset for the Screen-Stuck Generation
+              </h2>
+            </div>
+          </div>
+        </section>
+
         {/* Critical Medical Disclaimer */}
         <section className="bg-red-50 border-b-4 border-red-200 py-8">
           <div className="container mx-auto px-4">
@@ -282,15 +299,6 @@ const KidsProtocol = () => {
         <section className="relative py-24 bg-gradient-to-br from-primary/5 via-background to-secondary/5">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <div className="mb-6">
-                <span className="text-6xl">🧠</span>
-              </div>
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                UNFOGGED KIDS™
-              </h1>
-              <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-foreground/90">
-                The 30-Day Dopamine Reset for the Screen-Stuck Generation
-              </h2>
               <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
                 <strong>Research-backed. Parent-tested. Kid-approved.</strong><br/>
                 A natural gummy protocol based on international studies to help modern children return to baseline—calm, creative, and focused like it's 1987 again.
