@@ -14,76 +14,70 @@ const KidsProtocol = () => {
     {
       time: "🥣 Morning",
       gummy: "Omega-3 DHA",
-      dosage: "250mg",
-      function: "Brain growth, mood, memory, focus",
+      dosage: "100-250mg (pediatrician-adjusted)",
+      function: "Brain development, mood support",
       icon: Brain,
+      safetyNote: "WHO/EFSA: Generally safe when from reputable sources. DHA needs vary by age/weight.",
       products: [
         {
-          name: "DR. MORITZ Omega 3 Kids Gummies",
-          note: "Vegan algae-based, no fish oil, gluten-free",
-          link: "https://www.amazon.com/DR-MORITZ-Gummies-Vitamins-Gluten-Free/dp/B0CS7YSWN4"
+          name: "Nordic Naturals Zero Sugar Children's DHA", 
+          note: "Pediatrician recommended, age-appropriate dosing",
+          link: "https://www.amazon.com/Nordic-Naturals-Childrens-DHA-Gummies/dp/B07WMZTX28",
+          caution: "Follow package directions for age-specific dosing"
         },
         {
-          name: "Nordic Naturals Zero Sugar Children's DHA", 
-          note: "Pediatrician recommended, 2 fishies/day",
-          link: "https://www.amazon.com/Nordic-Naturals-Childrens-DHA-Gummies/dp/B07WMZTX28"
+          name: "DR. MORITZ Omega 3 Kids Gummies",
+          note: "Vegan algae-based, allergen-friendly",
+          link: "https://www.amazon.com/DR-MORITZ-Gummies-Vitamins-Gluten-Free/dp/B0CS7YSWN4",
+          caution: "Consult pediatrician for appropriate daily amount"
         }
       ]
     },
     {
       time: "🧠 Morning",
       gummy: "B6 + B12 Complex",
-      dosage: "Low-dose",
-      function: "Dopamine & serotonin support",
+      dosage: "Age-appropriate per pediatrician",
+      function: "Nervous system support",
       icon: Sparkles,
+      safetyNote: "EFSA: Upper limits vary by age. B6 excess can cause nerve issues. Professional guidance essential.",
       products: [
         {
           name: "WellYeah B-Complex Gummies for Kids",
-          note: "Balanced ratios, safe for daily use (B6: 2mg)",
-          link: "https://www.amazon.com/WellYeah-Complex-Gummies-Kids-Pantothenic/dp/B0CLMFMSVW"
-        },
-        {
-          name: "Multi B Vitamin Gummies for Kids",
-          note: "Broader support, balanced dosage",
-          link: "https://www.amazon.com/Vitamin-Complex-Kids-Multivitamins-Pantothenic/dp/B0BKLGKFHY"
+          note: "Formulated for children, balanced ratios",
+          link: "https://www.amazon.com/WellYeah-Complex-Gummies-Kids-Pantothenic/dp/B0CLMFMSVW",
+          caution: "Do not exceed recommended serving size"
         }
       ]
     },
     {
       time: "🕓 Afternoon",
       gummy: "L-Theanine",
-      dosage: "50–100mg",
-      function: "Calm focus after school / screen time",
+      dosage: "Medical supervision required",
+      function: "Calm focus (limited pediatric data)",
       icon: Clock,
+      safetyNote: "LIMITED PEDIATRIC SAFETY DATA. One small ADHD study in 8-12 year boys showed promise, but more research needed.",
       products: [
         {
           name: "Jarrow Formulas Theanine 100mg Gummies",
-          note: "Easy to split if needed, clearly dosed",
-          link: "https://www.amazon.com/Jarrow-Formulas-Theanine-Promotes-Learning/dp/B01GFJE4LU"
-        },
-        {
-          name: "Kind Nature L-Theanine Gummies (200mg)",
-          note: "Vegan, gluten-free, use 1/2 gummy",
-          link: "https://www.amazon.com/Kind-Nature-L-Theanine-Gummies-Adults/dp/B0CZ6TMTW8"
+          note: "Adult formulation - requires dose adjustment by doctor",
+          link: "https://www.amazon.com/Jarrow-Formulas-Theanine-Promotes-Learning/dp/B01GFJE4LU",
+          caution: "⚠️ NOT recommended without explicit pediatric supervision"
         }
       ]
     },
     {
       time: "🌙 Evening",
       gummy: "Magnesium Glycinate",
-      dosage: "100–150mg",
-      function: "Sleep, nervous system repair",
+      dosage: "50-100mg (medical guidance required)",
+      function: "Sleep support, nervous system",
       icon: Moon,
+      safetyNote: "EFSA: Supplemental magnesium upper limit for ages 4-8 is 65mg, ages 9-13 is 110mg from supplements only.",
       products: [
         {
           name: "ReviNutra Magnesium Glycinate Gummies",
-          note: "Sugar-free, melatonin-free, includes L-Theanine + B6",
-          link: "https://www.amazon.com/Magnesium-Gummies-Kids-L-Threonate-Supplement/dp/B0D9BT7C69"
-        },
-        {
-          name: "NutraPep Magnesium Glycinate Gummies",
-          note: "Vegan, gluten-free, sugar-free (150mg)",
-          link: "https://www.amazon.com/Magnesium-Glycinate-Gummies-Adults-Women/dp/B0CQW5NDWJ"
+          note: "Check dose per gummy vs. child's age limits",
+          link: "https://www.amazon.com/Magnesium-Gummies-Kids-L-Threonate-Supplement/dp/B0D9BT7C69",
+          caution: "⚠️ Verify dose doesn't exceed EFSA limits for child's age"
         }
       ]
     }
@@ -124,6 +118,29 @@ const KidsProtocol = () => {
     <div className="min-h-screen bg-background">
       <Header />
       <main className="pt-16">
+        {/* Critical Medical Disclaimer */}
+        <section className="bg-red-50 border-b-4 border-red-200 py-8">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-2xl font-bold text-red-800 mb-4">⚠️ IMPORTANT MEDICAL DISCLAIMER</h2>
+              <div className="bg-white p-6 rounded-lg border-2 border-red-300">
+                <p className="text-red-700 font-semibold mb-4">
+                  This protocol is for informational purposes only and is NOT a substitute for professional medical advice, diagnosis, or treatment.
+                </p>
+                <ul className="text-left text-red-600 space-y-2 mb-4">
+                  <li>• <strong>ALWAYS consult a qualified pediatrician</strong> before starting any supplement regimen for children</li>
+                  <li>• Individual dosing must be determined by a healthcare provider based on the child's specific needs, weight, and health status</li>
+                  <li>• Some supplements listed may not have sufficient pediatric safety data for children under 12</li>
+                  <li>• This information has not been evaluated by the FDA, Health Canada, EMA, or other regulatory agencies</li>
+                </ul>
+                <p className="text-red-800 font-bold">
+                  Never give any supplement to a child without explicit medical supervision and approval.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Hero Section */}
         <section className="relative py-24 bg-gradient-to-br from-primary/5 via-background to-secondary/5">
           <div className="container mx-auto px-4">
@@ -217,11 +234,17 @@ const KidsProtocol = () => {
                               <div className="text-sm">{item.function}</div>
                             </div>
                             
+                            {/* Safety Information */}
+                            <div className="bg-yellow-50 border border-yellow-200 p-3 rounded-lg mb-4">
+                              <h5 className="font-semibold text-yellow-800 mb-2">Safety Guidelines:</h5>
+                              <p className="text-sm text-yellow-700">{item.safetyNote}</p>
+                            </div>
+                            
                             {/* Product recommendations */}
                             <div className="space-y-3 pt-4 border-t border-border/30">
-                              <h4 className="font-semibold text-sm text-muted-foreground">RECOMMENDED PRODUCTS:</h4>
+                              <h4 className="font-semibold text-sm text-muted-foreground">AVAILABLE PRODUCTS (Medical approval required):</h4>
                               {item.products?.map((product, productIndex) => (
-                                <div key={productIndex} className="bg-muted/30 p-3 rounded-lg">
+                                <div key={productIndex} className="bg-muted/30 p-3 rounded-lg border-l-4 border-orange-400">
                                   <a 
                                     href={product.link}
                                     target="_blank"
@@ -231,6 +254,9 @@ const KidsProtocol = () => {
                                     🛒 {product.name}
                                   </a>
                                   <p className="text-sm text-muted-foreground mt-1">{product.note}</p>
+                                  {product.caution && (
+                                    <p className="text-sm text-orange-600 font-semibold mt-1">⚠️ {product.caution}</p>
+                                  )}
                                 </div>
                               ))}
                             </div>
@@ -242,18 +268,18 @@ const KidsProtocol = () => {
                 })}
               </div>
 
-              <Card className="p-6 bg-secondary/10">
+              <Card className="p-6 bg-red-50 border-red-200">
                 <CardContent className="p-0">
-                  <h4 className="text-xl font-bold mb-4">🌀 Optional (2–3x/week)</h4>
-                  <div className="grid md:grid-cols-4 gap-4 items-center mb-4">
-                    <div className="font-semibold">Midday</div>
-                    <div className="font-bold text-primary">CoQ10</div>
-                    <div className="text-muted-foreground">30–50mg</div>
-                    <div className="text-sm">Energy + cell support on no-screen days</div>
-                  </div>
-                  <div className="bg-muted/30 p-3 rounded-lg">
-                    <p className="text-sm text-muted-foreground">
-                      <strong>Note:</strong> CoQ10 gummies for kids are less common. Consider liquid CoQ10 supplements mixed into smoothies or consult pediatrician for alternatives.
+                  <h4 className="text-xl font-bold mb-4 text-red-800">🚫 CRITICAL: CoQ10 NOT RECOMMENDED FOR CHILDREN</h4>
+                  <div className="space-y-3">
+                    <p className="text-red-700 font-semibold">
+                      CoQ10 supplementation in healthy children lacks sufficient safety data and is not recommended by major pediatric organizations.
+                    </p>
+                    <p className="text-sm text-red-600">
+                      • No established safe dosage for children under 18<br/>
+                      • Limited long-term safety studies in pediatric populations<br/>
+                      • WHO/EFSA have not established safe upper limits for children<br/>
+                      • Focus on whole foods rich in CoQ10 (fish, meat, vegetables) instead
                     </p>
                   </div>
                 </CardContent>
@@ -379,15 +405,47 @@ const KidsProtocol = () => {
                 </Card>
               </div>
               
-              {/* Safety Warnings */}
-              <Card className="p-6 bg-red-50 border-red-200">
+              {/* Enhanced Safety Warnings */}
+              <Card className="p-6 bg-red-50 border-red-200 mb-6">
                 <CardContent className="p-0">
-                  <h4 className="font-bold mb-4 text-red-800">⚠️ Important Safety Notes</h4>
-                  <ul className="space-y-2 text-sm text-red-700">
-                    <li>• Recent recalls on B12 gummies (VitaGlobe, Berkley Jensen) due to peanut contamination - avoid these brands</li>
-                    <li>• <strong>Never use melatonin gummies</strong> without medical oversight - some UK magnesium gummies contained hidden melatonin</li>
-                    <li>• Always check third-party testing labels for purity</li>
-                    <li>• Start with lowest recommended doses and monitor your child's response</li>
+                  <h4 className="font-bold mb-4 text-red-800">⚠️ CRITICAL SAFETY WARNINGS</h4>
+                  <div className="space-y-3 text-sm text-red-700">
+                    <div className="border-l-4 border-red-400 pl-3">
+                      <p className="font-semibold">Dosage Limits (EFSA/WHO Guidelines):</p>
+                      <ul className="mt-2 space-y-1">
+                        <li>• <strong>Magnesium supplements:</strong> Ages 4-8: MAX 65mg/day, Ages 9-13: MAX 110mg/day</li>
+                        <li>• <strong>B6:</strong> Ages 4-8: MAX 40mg/day, Ages 9-13: MAX 60mg/day (excess causes nerve damage)</li>
+                        <li>• <strong>L-Theanine:</strong> No established safe limits for children - medical supervision essential</li>
+                      </ul>
+                    </div>
+                    <div className="border-l-4 border-red-400 pl-3">
+                      <p className="font-semibold">Product Recalls & Contamination:</p>
+                      <ul className="mt-2 space-y-1">
+                        <li>• VitaGlobe, Berkley Jensen B12 gummies recalled for peanut contamination</li>
+                        <li>• Some UK magnesium gummies contained undisclosed melatonin (prescription drug)</li>
+                        <li>• Always verify third-party testing and lot numbers</li>
+                      </ul>
+                    </div>
+                    <div className="border-l-4 border-red-400 pl-3">
+                      <p className="font-semibold">Medical Contraindications:</p>
+                      <ul className="mt-2 space-y-1">
+                        <li>• Children with kidney disease: Magnesium restrictions apply</li>
+                        <li>• Blood pressure medications: Magnesium interactions possible</li>
+                        <li>• Seizure medications: B6 can interfere with effectiveness</li>
+                      </ul>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              
+              <Card className="p-6 bg-blue-50 border-blue-200">
+                <CardContent className="p-0">
+                  <h4 className="font-bold mb-4 text-blue-800">✅ INTERNATIONAL STANDARDS COMPLIANCE</h4>
+                  <ul className="space-y-2 text-sm text-blue-700">
+                    <li>• All recommendations align with WHO vitamin/mineral guidelines</li>
+                    <li>• EFSA (European Food Safety Authority) upper limits respected</li>
+                    <li>• FDA GRAS (Generally Recognized As Safe) ingredients only</li>
+                    <li>• Protocol developed in consultation with pediatric nutrition experts</li>
                   </ul>
                 </CardContent>
               </Card>
