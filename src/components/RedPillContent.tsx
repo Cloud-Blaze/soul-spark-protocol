@@ -95,7 +95,7 @@ export function RedPillContent() {
             onClick={() => window.open('https://github.com/Cloud-Blaze/soul-spark-protocol/blob/main/public/Reclaiming%20Life%20from%20the%20Dopamine%20Trap_%20A%20Science-Backed%2090-Day%20Lifestyle%20Reset.pdf')}
             className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-red-400 text-white px-12 py-6 text-xl font-semibold rounded-xl"
           >
-            Download Our Whitepaper For Even More Details ⬇️
+            Download Our Whitepaper For Even More Details Of True "Reality Clarity" ⬇️
           </Button>
         </div>
       </article>
