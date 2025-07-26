@@ -43,7 +43,7 @@ const MarriageHealing = () => {
               <ul className="list-disc pl-6 space-y-2">
                 <li>Dad drinks or checks out—burned out, work-focused, emotionally numb.</li>
                 <li>Mom stays present—but she's fried with anxiety from caretaking 24/7.</li>
-                <li>The house is chaos. No one is regulated. No one feels safe.</li>
+                <li>The house is chaos. No one is regulated. It can even be that no one feels safe.</li>
                 <li>The kids absorb every frequency in the home and learn to dissociate early.</li>
               </ul>
 
