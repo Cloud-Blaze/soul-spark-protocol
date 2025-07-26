@@ -6,6 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "orbiting-the-fog",
+    title: "🚫 On and Off the Wagon Isn't Sobriety — It's Just Orbiting the Fog",
+    excerpt: "Going 'on and off the wagon' feels like progress. You stop drinking for a week or a month. You're proud. But deep down… you know: You're still orbiting the addiction.",
+    emoji: "🚫"
+  },
+  {
     slug: "fog-and-return",
     title: "☀️ THE FOG AND THE RETURN",
     excerpt: "A 90-Day Resurrection of Your Nervous System (and 15 daily ways to get out without dropping out)",
