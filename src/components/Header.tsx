@@ -22,6 +22,9 @@ const Header = () => {
             <Link to="/protocol" className="text-foreground hover:text-primary transition-colors font-medium">
               Protocol
             </Link>
+            <Link to="/clarity-reset" className="text-foreground hover:text-primary transition-colors font-medium">
+              Clarity Reset
+            </Link>
             <Link to="/kids-protocol" className="text-secondary hover:text-secondary/80 transition-colors font-bold text-lg">
               🧠 Kids Protocol
             </Link>
@@ -71,6 +74,13 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Protocol
+              </Link>
+              <Link 
+                to="/clarity-reset" 
+                className="text-foreground hover:text-primary transition-colors font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Clarity Reset
               </Link>
               <Link 
                 to="/kids-protocol" 
