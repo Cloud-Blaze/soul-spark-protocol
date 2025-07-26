@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Protocol from "./pages/Protocol";
+import ClarityReset from "./pages/ClarityReset";
 import KidsProtocol from "./pages/KidsProtocol";
 import Stack from "./pages/Stack";
 import Science from "./pages/Science";
@@ -48,6 +49,7 @@ const App = () => (
         <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/protocol" element={<Protocol />} />
+            <Route path="/clarity-reset" element={<ClarityReset />} />
             <Route path="/kids-protocol" element={<KidsProtocol />} />
             <Route path="/stack" element={<Stack />} />
           <Route path="/science" element={<Science />} />
