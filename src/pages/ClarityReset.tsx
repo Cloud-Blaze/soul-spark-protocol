@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Button } from "@/components/ui/button";
 
 const ClarityReset = () => {
   useEffect(() => {
@@ -137,6 +138,15 @@ const ClarityReset = () => {
             <p className="text-lg text-muted-foreground leading-relaxed">
               Your brain isn't broken—it's just overloaded. Over 90 days, you reconnect with true reward, rebuild systems that support clarity, and rediscover what peace feels like from the inside. Think of it as your personal renaissance: reclaiming life on humanity's terms.
             </p>
+            
+            <div className="mt-12 text-center">
+              <Button 
+                onClick={() => window.location.href = '/choose-clarity'}
+                className="bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-white px-12 py-6 text-xl font-semibold rounded-xl"
+              >
+                Discover the Science Behind the Reset →
+              </Button>
+            </div>
           </div>
         </section>
       </main>
