@@ -6,6 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "fog-and-return",
+    title: "☀️ THE FOG AND THE RETURN",
+    excerpt: "A 90-Day Resurrection of Your Nervous System (and 15 daily ways to get out without dropping out)",
+    emoji: "☀️"
+  },
+  {
     slug: "fog-children-safety",
     title: "🛡️ The Fog Is Why Our Children Aren't Safe Anymore",
     excerpt: "We like to talk about safety in terms of laws, neighborhoods, school rules… But the real threat to our children? Fogged-out adults.",

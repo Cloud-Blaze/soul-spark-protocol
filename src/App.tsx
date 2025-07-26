@@ -26,6 +26,7 @@ import PoliticsAndCompassion from "./pages/blog/PoliticsAndCompassion";
 import PreDigitalMemoryReawakening from "./pages/blog/PreDigitalMemoryReawakening";
 import ReducedDeaths from "./pages/blog/ReducedDeaths";
 import TrueMarriageHealing from "./pages/blog/TrueMarriageHealing";
+import FogAndReturn from "./pages/blog/FogAndReturn";
 import FogChildrenSafety from "./pages/blog/FogChildrenSafety";
 import BeforeTheCoffee from "./pages/blog/BeforeTheCoffee";
 import MarriageHealing from "./pages/blog/MarriageHealing";
@@ -51,6 +52,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/fog-and-return" element={<FogAndReturn />} />
           <Route path="/blog/fog-children-safety" element={<FogChildrenSafety />} />
           <Route path="/blog/before-the-coffee" element={<BeforeTheCoffee />} />
           <Route path="/blog/systems-that-failed-us" element={<SystemsThatFailedUs />} />
