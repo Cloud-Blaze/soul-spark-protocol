@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { Button } from "./ui/button";
 
-export function ClarityPillChoice() {
+interface ClarityPillChoiceProps {
+  redirectMode?: boolean; // If true, red pill redirects to /clarity-reset instead of showing content
+}
+
+export function ClarityPillChoice({ redirectMode = false }: ClarityPillChoiceProps) {
   const [choice, setChoice] = useState<'blue' | 'red' | null>(null);
 
   const handleBluePill = () => {
@@ -9,8 +13,13 @@ export function ClarityPillChoice() {
   };
 
   const handleRedPill = () => {
-    // Redirect to the full choose-clarity page
-    window.location.href = '/choose-clarity';
+    if (redirectMode) {
+      // If in redirect mode (homepage), go to clarity-reset
+      window.location.href = '/clarity-reset';
+    } else {
+      // If not in redirect mode (choose-clarity page), go to full choose-clarity page
+      window.location.href = '/choose-clarity';
+    }
   };
 
   if (choice === 'blue') {

@@ -24,7 +24,7 @@ const Index = () => {
             <Hero />
           </div>
           <div className="snap-start h-screen">
-            <ClarityPillChoice />
+            <ClarityPillChoice redirectMode={true} />
           </div>
         </div>
         
