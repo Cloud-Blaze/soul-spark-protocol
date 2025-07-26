@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Button } from "../components/ui/button";
 import { RedPillContent } from "../components/RedPillContent";
 
 export function ChooseClarity() {
+  const [searchParams] = useSearchParams();
   const [choice, setChoice] = useState<'blue' | 'red' | null>(null);
 
   useEffect(() => {
@@ -13,7 +15,12 @@ export function ChooseClarity() {
     if (metaDescription) {
       metaDescription.setAttribute('content', "Curious what life looks like unplugged? Choose the clarity pill. This is your invitation to wake up from fog, rebuild focus, and reclaim your humanity.");
     }
-  }, []);
+    
+    // Auto-select red pill if coming from clarity-reset
+    if (searchParams.get('auto') === 'red') {
+      setChoice('red');
+    }
+  }, [searchParams]);
 
   const handleBluePill = () => {
     setChoice('blue');

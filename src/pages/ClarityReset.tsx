@@ -141,7 +141,7 @@ const ClarityReset = () => {
             
             <div className="mt-12 text-center">
               <Button 
-                onClick={() => window.location.href = '/choose-clarity'}
+                onClick={() => window.location.href = '/choose-clarity?auto=red'}
                 className="bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-white px-12 py-6 text-xl font-semibold rounded-xl"
               >
                 Discover the Science Behind the Reset →
