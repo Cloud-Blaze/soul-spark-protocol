@@ -6,6 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
   {
+    slug: "youre-not-failing",
+    title: "🔥 You're Not Failing — You're Feeling Again",
+    excerpt: "Night panic isn't relapse — it's resistance leaving the body. Trust your nervous system.",
+    emoji: "🔥"
+  },
+  {
     slug: "orbiting-the-fog",
     title: "🚫 On and Off the Wagon Isn't Sobriety — It's Just Orbiting the Fog",
     excerpt: "Going 'on and off the wagon' feels like progress. You stop drinking for a week or a month. You're proud. But deep down… you know: You're still orbiting the addiction.",
