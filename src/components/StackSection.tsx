@@ -6,35 +6,35 @@ const StackSection = () => {
   const supplements = [
     {
       name: "Centrum + Omega-3",
-      purpose: "Foundational nutrients, B-vitamins, D3",
+      purpose: "Foundational nutrients, B-vitamins, D3 • Fights emotional numbness",
       dosage: "2 gummies morning",
       cost: "$30/90 days",
       link: "https://www.amazon.com/dp/B08YS3DW5G?tag=unfogged0f-20"
     },
     {
       name: "CoQ10",
-      purpose: "Mitochondrial repair + brain energy",
+      purpose: "Mitochondrial repair + brain energy • Reduces fatigue fog",
       dosage: "1 gummy morning", 
       cost: "$44/90 days",
       link: "https://www.amazon.com/dp/B078NFVCJ7?tag=unfogged0f-20"
     },
     {
       name: "Ashwagandha",
-      purpose: "Cortisol modulation, stress support",
+      purpose: "Cortisol modulation • Calms racing thoughts & short fuse",
       dosage: "2 gummies afternoon",
       cost: "$60/90 days",
       link: "https://www.amazon.com/dp/B0B8QGMLBS?tag=unfogged0f-20"
     },
     {
       name: "L-Theanine",
-      purpose: "Calm without sedation, anxiety rescue",
+      purpose: "GABA boost for obsessive looping • Calm without sedation",
       dosage: "1 gummy as needed",
       cost: "$19/90 days",
       link: "https://www.amazon.com/dp/B0D83F2TB5?tag=unfogged0f-20"
     },
     {
       name: "CALM Sleep Gummies",
-      purpose: "Magnesium + Melatonin for repair",
+      purpose: "Magnesium + Melatonin • Stops nighttime panic & sweats",
       dosage: "2 gummies evening",
       cost: "$50/90 days",
       link: "https://www.amazon.com/dp/B085HK5LY2?tag=unfogged0f-20"
