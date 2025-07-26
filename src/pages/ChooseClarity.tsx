@@ -157,6 +157,15 @@ export function ChooseClarity() {
                   Begin Your 90-Day Reset →
                 </Button>
               </div>
+
+              <div className="mt-16 text-center">
+                <Button 
+                  onClick={() => window.location.href = '/clarity-reset'}
+                  className="bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-white px-12 py-6 text-xl font-semibold rounded-xl"
+                >
+                  Download Our Whitepaper For Even More Details ⬇️
+                </Button>
+              </div>
             </article>
           </div>
         </main>
