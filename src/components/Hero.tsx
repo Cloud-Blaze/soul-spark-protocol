@@ -76,7 +76,7 @@ const Hero = () => {
           {/* 7-Day Protocol Download */}
           <div className="mt-8 p-6 rounded-xl bg-sage/10 border border-sage/20 shadow-sm">
             <a 
-              href="https://github.com/Cloud-Blaze/soul-spark-protocol/blob/main/public/unfogged-7-day-starter-guide.pdf"
+              href="https://storage.googleapis.com/unfogged/unfogged-7-day-starter-guide.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-deep-teal hover:text-primary transition-colors group"
