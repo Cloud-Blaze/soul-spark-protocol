@@ -73,6 +73,27 @@ const Hero = () => {
             </Button>
           </div>
 
+          {/* 7-Day Protocol Download */}
+          <div className="mt-8 p-6 rounded-xl bg-sage/10 border border-sage/20 shadow-sm">
+            <a 
+              href="https://github.com/Cloud-Blaze/soul-spark-protocol/blob/main/public/unfogged-7-day-starter-guide.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-deep-teal hover:text-primary transition-colors group"
+            >
+              <span className="text-2xl">🌀</span>
+              <div>
+                <h4 className="font-semibold text-lg group-hover:underline">
+                  Download the 7-Day Clarity Printable Protocol — Your Nervous System Reset Starts Here
+                </h4>
+                <p className="text-sm text-deep-teal/70 mt-1">
+                  (PDF includes supplement guide, panic toolkit, sleep plan, and daily support)
+                </p>
+              </div>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform ml-auto" />
+            </a>
+          </div>
+
           {/* Trust Indicators */}
           <div className="mt-12 pt-8 border-t border-sage/20">
             <p className="text-sm text-deep-teal/60 mb-4">Trusted by thousands reclaiming clarity</p>
