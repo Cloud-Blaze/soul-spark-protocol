@@ -15,8 +15,8 @@ export function ClarityPillChoice() {
 
   if (choice === 'blue') {
     return (
-      <section className="py-16 bg-gradient-to-br from-blue-950 via-blue-900 to-slate-900">
-        <div className="container mx-auto px-4">
+      <section className="h-full flex items-center bg-gradient-to-br from-blue-950 via-blue-900 to-slate-900">
+        <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-blue-900/50 border border-blue-500/30 rounded-2xl p-12 backdrop-blur-sm">
               <h2 className="text-4xl md:text-6xl font-bold text-blue-100 mb-8">
@@ -55,8 +55,8 @@ export function ClarityPillChoice() {
   }
 
   return (
-    <section className="py-16 bg-gradient-to-br from-purple-950 via-slate-900 to-red-950">
-      <div className="container mx-auto px-4">
+    <section className="h-full flex items-center bg-gradient-to-br from-purple-950 via-slate-900 to-red-950">
+      <div className="container mx-auto px-4 py-16">
         <div className="max-w-6xl mx-auto text-center">
           <div className="mb-16">
             <h2 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">

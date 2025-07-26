@@ -18,13 +18,24 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Header />
       <main>
-        <Hero />
-        <ClarityPillChoice />
-        <HealingInfographicSection />
-        <ProblemSection />
-        <FirstWeekClaritySection />
-        <StackSection />
-        <OpenSourceSection />
+        {/* Snap scroll container for Hero and Clarity Pill sections */}
+        <div className="snap-y snap-mandatory overflow-y-auto h-screen">
+          <div className="snap-start h-screen">
+            <Hero />
+          </div>
+          <div className="snap-start h-screen">
+            <ClarityPillChoice />
+          </div>
+        </div>
+        
+        {/* Normal scrolling sections */}
+        <div>
+          <HealingInfographicSection />
+          <ProblemSection />
+          <FirstWeekClaritySection />
+          <StackSection />
+          <OpenSourceSection />
+        </div>
       </main>
       <Footer />
     </div>
