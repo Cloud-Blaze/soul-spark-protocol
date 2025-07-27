@@ -38,6 +38,8 @@ import UnblockedProductivity from "./pages/blog/UnblockedProductivity";
 import SystemsThatFailedUs from "./pages/blog/SystemsThatFailedUs";
 import EarthCanBreathe from "./pages/blog/EarthCanBreathe";
 import CrossFunctionalDoctors from "./pages/blog/CrossFunctionalDoctors";
+import HolyReset from "./pages/blog/HolyReset";
+import BluePillLoop from "./pages/blog/BluePillLoop";
 
 const queryClient = new QueryClient();
 
@@ -82,6 +84,8 @@ const App = () => (
           <Route path="/blog/true-marriage-healing" element={<TrueMarriageHealing />} />
           <Route path="/blog/unblocked-productivity" element={<UnblockedProductivity />} />
           <Route path="/blog/cross-functional-doctors" element={<CrossFunctionalDoctors />} />
+          <Route path="/blog/holy-reset" element={<HolyReset />} />
+          <Route path="/blog/blue-pill-loop" element={<BluePillLoop />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
