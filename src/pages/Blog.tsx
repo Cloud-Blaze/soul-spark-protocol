@@ -190,6 +190,12 @@ const blogPosts = [
     title: "⏳ How Soon Can Blood Pressure & Triglycerides Normalize?",
     excerpt: "Major triglyceride improvement in 30–60 days, blood pressure normalize within 2–6 weeks. You're not sick — you're just unfogging.",
     emoji: "⏳"
+  },
+  {
+    slug: "fog-not-you",
+    title: "🌀 The Fog Isn't Who You Are — It's What's Been Done to You",
+    excerpt: "You're not broken. You're fogged. The path out is biology + dignity: $60/month, 3 months, and your nervous system remembers how to be human again.",
+    emoji: "🌀"
   }
 ];
 
