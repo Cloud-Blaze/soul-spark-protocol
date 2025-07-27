@@ -142,6 +142,12 @@ const blogPosts = [
     title: "🚀 Productivity Without Panic", 
     excerpt: "Most people aren't lazy. They're fogged. When you reset the system, motivation becomes natural, not forced.",
     emoji: "🚀"
+  },
+  {
+    slug: "holy-reset",
+    title: "💩 The Holy Reset: Why Your Soft Stool Means You're Becoming Human Again",
+    excerpt: "When your poop softens — something sacred is happening. Your body is beginning to self-regulate again.",
+    emoji: "💩"
   }
 ];
 
