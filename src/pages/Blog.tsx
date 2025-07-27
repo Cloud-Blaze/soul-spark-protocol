@@ -184,6 +184,12 @@ const blogPosts = [
     title: "💥 Why Your Blood Pressure Spiked After the Hospital",
     excerpt: "The nervous system doesn't forget — even when you're 'safe'. That lingering tension may be biological memory trying to exit.",
     emoji: "💥"
+  },
+  {
+    slug: "blood-pressure-recovery",
+    title: "⏳ How Soon Can Blood Pressure & Triglycerides Normalize?",
+    excerpt: "Major triglyceride improvement in 30–60 days, blood pressure normalize within 2–6 weeks. You're not sick — you're just unfogging.",
+    emoji: "⏳"
   }
 ];
 

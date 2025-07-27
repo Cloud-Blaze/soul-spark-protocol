@@ -45,6 +45,7 @@ import NotCrazyWakingUp from "./pages/blog/NotCrazyWakingUp";
 import DoctorGap from "./pages/blog/DoctorGap";
 import CholesterolConnection from "./pages/blog/CholesterolConnection";
 import BloodPressureMemory from "./pages/blog/BloodPressureMemory";
+import BloodPressureRecovery from "./pages/blog/BloodPressureRecovery";
 
 const queryClient = new QueryClient();
 
@@ -96,6 +97,7 @@ const App = () => (
           <Route path="/blog/doctor-gap" element={<DoctorGap />} />
           <Route path="/blog/cholesterol-connection" element={<CholesterolConnection />} />
           <Route path="/blog/blood-pressure-memory" element={<BloodPressureMemory />} />
+          <Route path="/blog/blood-pressure-recovery" element={<BloodPressureRecovery />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
