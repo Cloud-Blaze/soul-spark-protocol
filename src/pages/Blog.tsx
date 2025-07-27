@@ -172,6 +172,12 @@ const blogPosts = [
     title: "🥼 Why Many Doctors Don't Help People Get Unfogged",
     excerpt: "They were trained to treat, not restore. They're in the fog, not outside it. You don't need to wait for your doctor to wake up.",
     emoji: "🥼"
+  },
+  {
+    slug: "cholesterol-connection",
+    title: "🧬 How High Cholesterol Connects to Alcohol, Dopamine, and Stress",
+    excerpt: "Your high cholesterol may not be a food issue. It may be a life load issue.",
+    emoji: "🧬"
   }
 ];
 
