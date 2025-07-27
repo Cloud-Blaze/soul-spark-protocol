@@ -178,6 +178,12 @@ const blogPosts = [
     title: "🧬 How High Cholesterol Connects to Alcohol, Dopamine, and Stress",
     excerpt: "Your high cholesterol may not be a food issue. It may be a life load issue.",
     emoji: "🧬"
+  },
+  {
+    slug: "blood-pressure-memory",
+    title: "💥 Why Your Blood Pressure Spiked After the Hospital",
+    excerpt: "The nervous system doesn't forget — even when you're 'safe'. That lingering tension may be biological memory trying to exit.",
+    emoji: "💥"
   }
 ];
 
