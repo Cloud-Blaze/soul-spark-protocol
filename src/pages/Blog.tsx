@@ -196,6 +196,12 @@ const blogPosts = [
     title: "🌀 The Fog Isn't Who You Are — It's What's Been Done to You",
     excerpt: "You're not broken. You're fogged. The path out is biology + dignity: $60/month, 3 months, and your nervous system remembers how to be human again.",
     emoji: "🌀"
+  },
+  {
+    slug: "nervous-system-relapse",
+    title: "🧠 How to Recognize a Nervous System Relapse",
+    excerpt: "You got clear, you unfogged — then life happened. Here's how to catch the fog before it swallows you again.",
+    emoji: "🧠"
   }
 ];
 
