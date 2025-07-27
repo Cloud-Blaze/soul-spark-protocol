@@ -214,6 +214,12 @@ const blogPosts = [
     title: "🕰️ Time Doesn't Speed Up — You Do",
     excerpt: "Time doesn't speed up as you age. You speed up — because you're bracing for death. How clearing the fog brings you back into time.",
     emoji: "🕰️"
+  },
+  {
+    slug: "social-media-taper",
+    title: "🧠 Techniques to Taper Off Social Media & Dopamine",
+    excerpt: "This isn't about deleting your accounts forever. It's about reclaiming your ability to focus, feel, and live in real-time.",
+    emoji: "🧠"
   }
 ];
 
