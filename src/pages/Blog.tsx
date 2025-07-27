@@ -148,6 +148,12 @@ const blogPosts = [
     title: "💩 The Holy Reset: Why Your Soft Stool Means You're Becoming Human Again",
     excerpt: "When your poop softens — something sacred is happening. Your body is beginning to self-regulate again.",
     emoji: "💩"
+  },
+  {
+    slug: "blue-pill-loop",
+    title: "🧬 When Both Parents Are in the Blue Pill Loop, One Has to Lead the Way Back To True Happiness",
+    excerpt: "If both parents are fogged, the kids grow up in the fog too. And somebody has to go first.",
+    emoji: "🧬"
   }
 ];
 
