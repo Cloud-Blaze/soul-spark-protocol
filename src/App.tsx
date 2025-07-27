@@ -42,6 +42,7 @@ import HolyReset from "./pages/blog/HolyReset";
 import BluePillLoop from "./pages/blog/BluePillLoop";
 import StressDrainage from "./pages/blog/StressDrainage";
 import NotCrazyWakingUp from "./pages/blog/NotCrazyWakingUp";
+import DoctorGap from "./pages/blog/DoctorGap";
 
 const queryClient = new QueryClient();
 
@@ -90,6 +91,7 @@ const App = () => (
           <Route path="/blog/blue-pill-loop" element={<BluePillLoop />} />
           <Route path="/blog/stress-drainage" element={<StressDrainage />} />
           <Route path="/blog/not-crazy-waking-up" element={<NotCrazyWakingUp />} />
+          <Route path="/blog/doctor-gap" element={<DoctorGap />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

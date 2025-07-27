@@ -166,6 +166,12 @@ const blogPosts = [
     title: "🧠 You're Not Crazy. You're Waking Up.",
     excerpt: "The system is designed to manage symptoms, not restore people. You're not breaking down. You're waking up.",
     emoji: "🧠"
+  },
+  {
+    slug: "doctor-gap",
+    title: "🥼 Why Many Doctors Don't Help People Get Unfogged",
+    excerpt: "They were trained to treat, not restore. They're in the fog, not outside it. You don't need to wait for your doctor to wake up.",
+    emoji: "🥼"
   }
 ];
 
