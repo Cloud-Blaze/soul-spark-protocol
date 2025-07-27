@@ -49,6 +49,7 @@ import BloodPressureRecovery from "./pages/blog/BloodPressureRecovery";
 import FogNotYou from "./pages/blog/FogNotYou";
 import NervousSystemRelapse from "./pages/blog/NervousSystemRelapse";
 import CorporationsCannotHeal from "./pages/blog/CorporationsCannotHeal";
+import TimeDoesntSpeedUp from "./pages/blog/TimeDoesntSpeedUp";
 
 const queryClient = new QueryClient();
 
@@ -104,6 +105,7 @@ const App = () => (
           <Route path="/blog/fog-not-you" element={<FogNotYou />} />
           <Route path="/blog/nervous-system-relapse" element={<NervousSystemRelapse />} />
           <Route path="/blog/corporations-cannot-heal" element={<CorporationsCannotHeal />} />
+          <Route path="/blog/time-doesnt-speed-up" element={<TimeDoesntSpeedUp />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

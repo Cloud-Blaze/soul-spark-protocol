@@ -208,6 +208,12 @@ const blogPosts = [
     title: "💔 Corporations Can't Heal You — Only Humans Can",
     excerpt: "The system wasn't built for you to be clear. It was built for you to consume, comply, and stay fogged. This is why healing is rebellion.",
     emoji: "💔"
+  },
+  {
+    slug: "time-doesnt-speed-up",
+    title: "🕰️ Time Doesn't Speed Up — You Do",
+    excerpt: "Time doesn't speed up as you age. You speed up — because you're bracing for death. How clearing the fog brings you back into time.",
+    emoji: "🕰️"
   }
 ];
 
