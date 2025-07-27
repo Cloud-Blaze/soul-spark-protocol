@@ -154,6 +154,12 @@ const blogPosts = [
     title: "🧬 When Both Parents Are in the Blue Pill Loop, One Has to Lead the Way Back To True Happiness",
     excerpt: "If both parents are fogged, the kids grow up in the fog too. And somebody has to go first.",
     emoji: "🧬"
+  },
+  {
+    slug: "stress-drainage",
+    title: "🫁 Why You're Coughing Up Stress History: The Truth About Nervous System Drainage No One Tells You",
+    excerpt: "You're not sick. You're draining. Your body is finally exhaling the storm.",
+    emoji: "🫁"
   }
 ];
 
