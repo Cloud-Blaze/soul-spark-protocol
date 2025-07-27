@@ -202,6 +202,12 @@ const blogPosts = [
     title: "🧠 How to Recognize a Nervous System Relapse",
     excerpt: "You got clear, you unfogged — then life happened. Here's how to catch the fog before it swallows you again.",
     emoji: "🧠"
+  },
+  {
+    slug: "corporations-cannot-heal",
+    title: "💔 Corporations Can't Heal You — Only Humans Can",
+    excerpt: "The system wasn't built for you to be clear. It was built for you to consume, comply, and stay fogged. This is why healing is rebellion.",
+    emoji: "💔"
   }
 ];
 
