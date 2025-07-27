@@ -41,6 +41,7 @@ import CrossFunctionalDoctors from "./pages/blog/CrossFunctionalDoctors";
 import HolyReset from "./pages/blog/HolyReset";
 import BluePillLoop from "./pages/blog/BluePillLoop";
 import StressDrainage from "./pages/blog/StressDrainage";
+import NotCrazyWakingUp from "./pages/blog/NotCrazyWakingUp";
 
 const queryClient = new QueryClient();
 
@@ -88,6 +89,7 @@ const App = () => (
           <Route path="/blog/holy-reset" element={<HolyReset />} />
           <Route path="/blog/blue-pill-loop" element={<BluePillLoop />} />
           <Route path="/blog/stress-drainage" element={<StressDrainage />} />
+          <Route path="/blog/not-crazy-waking-up" element={<NotCrazyWakingUp />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

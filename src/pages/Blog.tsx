@@ -160,6 +160,12 @@ const blogPosts = [
     title: "🫁 Why You're Coughing Up Stress History: The Truth About Nervous System Drainage No One Tells You",
     excerpt: "You're not sick. You're draining. Your body is finally exhaling the storm.",
     emoji: "🫁"
+  },
+  {
+    slug: "not-crazy-waking-up",
+    title: "🧠 You're Not Crazy. You're Waking Up.",
+    excerpt: "The system is designed to manage symptoms, not restore people. You're not breaking down. You're waking up.",
+    emoji: "🧠"
   }
 ];
 
