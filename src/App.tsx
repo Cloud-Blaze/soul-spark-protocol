@@ -38,19 +38,6 @@ import UnblockedProductivity from "./pages/blog/UnblockedProductivity";
 import SystemsThatFailedUs from "./pages/blog/SystemsThatFailedUs";
 import EarthCanBreathe from "./pages/blog/EarthCanBreathe";
 import CrossFunctionalDoctors from "./pages/blog/CrossFunctionalDoctors";
-import HolyReset from "./pages/blog/HolyReset";
-import BluePillLoop from "./pages/blog/BluePillLoop";
-import StressDrainage from "./pages/blog/StressDrainage";
-import NotCrazyWakingUp from "./pages/blog/NotCrazyWakingUp";
-import DoctorGap from "./pages/blog/DoctorGap";
-import CholesterolConnection from "./pages/blog/CholesterolConnection";
-import BloodPressureMemory from "./pages/blog/BloodPressureMemory";
-import BloodPressureRecovery from "./pages/blog/BloodPressureRecovery";
-import FogNotYou from "./pages/blog/FogNotYou";
-import NervousSystemRelapse from "./pages/blog/NervousSystemRelapse";
-import CorporationsCannotHeal from "./pages/blog/CorporationsCannotHeal";
-import TimeDoesntSpeedUp from "./pages/blog/TimeDoesntSpeedUp";
-import SocialMediaTaper from "./pages/blog/SocialMediaTaper";
 
 const queryClient = new QueryClient();
 
@@ -95,19 +82,6 @@ const App = () => (
           <Route path="/blog/true-marriage-healing" element={<TrueMarriageHealing />} />
           <Route path="/blog/unblocked-productivity" element={<UnblockedProductivity />} />
           <Route path="/blog/cross-functional-doctors" element={<CrossFunctionalDoctors />} />
-          <Route path="/blog/holy-reset" element={<HolyReset />} />
-          <Route path="/blog/blue-pill-loop" element={<BluePillLoop />} />
-          <Route path="/blog/stress-drainage" element={<StressDrainage />} />
-          <Route path="/blog/not-crazy-waking-up" element={<NotCrazyWakingUp />} />
-          <Route path="/blog/doctor-gap" element={<DoctorGap />} />
-          <Route path="/blog/cholesterol-connection" element={<CholesterolConnection />} />
-          <Route path="/blog/blood-pressure-memory" element={<BloodPressureMemory />} />
-          <Route path="/blog/blood-pressure-recovery" element={<BloodPressureRecovery />} />
-          <Route path="/blog/fog-not-you" element={<FogNotYou />} />
-          <Route path="/blog/nervous-system-relapse" element={<NervousSystemRelapse />} />
-          <Route path="/blog/corporations-cannot-heal" element={<CorporationsCannotHeal />} />
-          <Route path="/blog/time-doesnt-speed-up" element={<TimeDoesntSpeedUp />} />
-          <Route path="/blog/social-media-taper" element={<SocialMediaTaper />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

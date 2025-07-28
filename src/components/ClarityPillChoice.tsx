@@ -87,7 +87,7 @@ export function ClarityPillChoice({ redirectMode = false }: ClarityPillChoicePro
                 className="w-full bg-gradient-to-br from-blue-600/80 to-blue-800/80 hover:from-blue-500/90 hover:to-blue-700/90 text-white p-8 rounded-2xl border border-blue-400/30 transition-all duration-300 hover:scale-105 backdrop-blur-sm"
               >
                 <div className="text-6xl mb-4">🔵</div>
-                <h3 className="text-2xl font-bold mb-4">The Blue Pill{redirectMode ? ' (gummy)' : ''}</h3>
+                <h3 className="text-2xl font-bold mb-4">The Blue Pill</h3>
                 <p className="text-blue-100">
                   Stay comfortable. Keep scrolling. Nothing needs to change.
                 </p>
@@ -105,7 +105,7 @@ export function ClarityPillChoice({ redirectMode = false }: ClarityPillChoicePro
                 className="relative w-full bg-gradient-to-br from-red-600 to-red-800 hover:from-red-500 hover:to-red-700 text-white p-12 rounded-2xl border border-red-400/50 transition-all duration-300 hover:scale-110 shadow-2xl shadow-red-500/25"
               >
                 <div className="text-8xl mb-6">🔴</div>
-                <h3 className="text-3xl font-bold mb-6">The Red Pill{redirectMode ? ' (gummy)' : ''}</h3>
+                <h3 className="text-3xl font-bold mb-6">The Red Pill</h3>
                 <p className="text-red-100 text-lg leading-relaxed">
                   See the truth. Break free from digital fog. Reclaim your focus, creativity, and peace.
                 </p>

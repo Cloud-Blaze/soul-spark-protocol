@@ -6,7 +6,7 @@ import { Heart, Users, Target } from "lucide-react";
 
 const About = () => {
   useEffect(() => {
-    document.title = "About David - Unfogged Founder | Breaking Intergenerational Nervous System Cycles";
+    document.title = "About David Renne - Unfogged Founder | Breaking Intergenerational Nervous System Cycles";
   }, []);
 
 /*
@@ -43,13 +43,13 @@ const About = () => {
             <div className="max-w-4xl mx-auto">
               <div className="bg-background/80 backdrop-blur-sm rounded-xl border border-sage/20 p-8 md:p-12 mb-12">
                 <div className="text-center mb-8">
-                  <h2 className="text-3xl font-bold text-deep-teal mb-4">David</h2>
+                  <h2 className="text-3xl font-bold text-deep-teal mb-4">David Renne</h2>
                   <p className="text-lg text-deep-teal/70">Founder & Creator</p>
                 </div>
 
                 <div className="prose prose-lg max-w-none text-deep-teal/80 leading-relaxed space-y-6">
                   <p>
-                    David is a software engineer, creative strategist, and father who spent two decades living in what he now calls "the fog." Diagnosed with bipolar disorder in 2018 and navigating the emotional and cognitive toll of alcohol use in college, David spent years building businesses, managing family life, and showing up for his daughter—while quietly feeling like he was drifting further from himself until he hit rock bottom and even found Christ in this journey of healing my inner demons and absolving the core issues.
+                    David Renne is a software engineer, creative strategist, and father who spent two decades living in what he now calls "the fog." Diagnosed with bipolar disorder in 2018 and navigating the emotional and cognitive toll of alcohol use in college, David spent years building businesses, managing family life, and showing up for his daughter—while quietly feeling like he was drifting further from himself until he hit rock bottom and even found Christ in this journey of healing my inner demons and absolving the core issues.
                   </p>
 
                   <p>
@@ -57,7 +57,7 @@ const About = () => {
                   </p>
 
                   <p>
-                    The tipping point came not with a crisis, but a moment of unexpected clarity: a single dose of ashwagandha lifted the edge off the fog and his deep sensitivity and wish to love like he used to (unmuted love) immediately was noticed that it was his ailment. He was just blocked in the central nervous system. The effect wasn't euphoric mania—it was <strong className="text-primary">presence</strong>. In that moment, David saw not only his own disconnection, but the subtle burnout, mood volatility, and fog in the people he loved—including his wife. That experience became the beginning of a full protocol: built not from scratch, but from <strong className="text-primary">what worked</strong>.
+                    The tipping point came not with a crisis, but a moment of unexpected clarity: a single dose of ashwagandha lifted the edge off the fog. The effect wasn't euphoric mania—it was <strong className="text-primary">presence</strong>. In that moment, David saw not only his own disconnection, but the subtle burnout, mood volatility, and fog in the people he loved who were overloaded with stresses of the internet culture. Humans didnt all used to be this stressed at night in the 80's they were present for their children because all they had was a TV and a beer.  Not social media distractions and endless doom scrolling and anxiety numbness.  That experience became the beginning of a full protocol: built not from scratch, but from <strong className="text-primary">what worked</strong>.
                   </p>
 
                   <p>
@@ -181,7 +181,7 @@ const About = () => {
                 <blockquote className="text-xl md:text-2xl text-deep-teal/80 italic leading-relaxed mb-4">
                   "This isn't about going sober forever. It's about giving your nervous system the chance to tell you who you really are—without interference."
                 </blockquote>
-                <p className="text-primary font-semibold">—David, Founder, Unfogged™</p>
+                <p className="text-primary font-semibold">—David Renne, Founder, Unfogged™</p>
               </div>
             </div>
           </div>
