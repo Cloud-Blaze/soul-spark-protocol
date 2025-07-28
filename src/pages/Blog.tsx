@@ -142,6 +142,84 @@ const blogPosts = [
     title: "🚀 Productivity Without Panic", 
     excerpt: "Most people aren't lazy. They're fogged. When you reset the system, motivation becomes natural, not forced.",
     emoji: "🚀"
+  },
+  {
+    slug: "holy-reset",
+    title: "💩 The Holy Reset: Why Your Soft Stool Means You're Becoming Human Again",
+    excerpt: "When your poop softens — something sacred is happening. Your body is beginning to self-regulate again.",
+    emoji: "💩"
+  },
+  {
+    slug: "blue-pill-loop",
+    title: "🧬 When Both Parents Are in the Blue Pill Loop, One Has to Lead the Way Back To True Happiness",
+    excerpt: "If both parents are fogged, the kids grow up in the fog too. And somebody has to go first.",
+    emoji: "🧬"
+  },
+  {
+    slug: "stress-drainage",
+    title: "🫁 Why You're Coughing Up Stress History: The Truth About Nervous System Drainage No One Tells You",
+    excerpt: "You're not sick. You're draining. Your body is finally exhaling the storm.",
+    emoji: "🫁"
+  },
+  {
+    slug: "not-crazy-waking-up",
+    title: "🧠 You're Not Crazy. You're Waking Up.",
+    excerpt: "The system is designed to manage symptoms, not restore people. You're not breaking down. You're waking up.",
+    emoji: "🧠"
+  },
+  {
+    slug: "doctor-gap",
+    title: "🥼 Why Many Doctors Don't Help People Get Unfogged",
+    excerpt: "They were trained to treat, not restore. They're in the fog, not outside it. You don't need to wait for your doctor to wake up.",
+    emoji: "🥼"
+  },
+  {
+    slug: "cholesterol-connection",
+    title: "🧬 How High Cholesterol Connects to Alcohol, Dopamine, and Stress",
+    excerpt: "Your high cholesterol may not be a food issue. It may be a life load issue.",
+    emoji: "🧬"
+  },
+  {
+    slug: "blood-pressure-memory",
+    title: "💥 Why Your Blood Pressure Spiked After the Hospital",
+    excerpt: "The nervous system doesn't forget — even when you're 'safe'. That lingering tension may be biological memory trying to exit.",
+    emoji: "💥"
+  },
+  {
+    slug: "blood-pressure-recovery",
+    title: "⏳ How Soon Can Blood Pressure & Triglycerides Normalize?",
+    excerpt: "Major triglyceride improvement in 30–60 days, blood pressure normalize within 2–6 weeks. You're not sick — you're just unfogging.",
+    emoji: "⏳"
+  },
+  {
+    slug: "fog-not-you",
+    title: "🌀 The Fog Isn't Who You Are — It's What's Been Done to You",
+    excerpt: "You're not broken. You're fogged. The path out is biology + dignity: $60/month, 3 months, and your nervous system remembers how to be human again.",
+    emoji: "🌀"
+  },
+  {
+    slug: "nervous-system-relapse",
+    title: "🧠 How to Recognize a Nervous System Relapse",
+    excerpt: "You got clear, you unfogged — then life happened. Here's how to catch the fog before it swallows you again.",
+    emoji: "🧠"
+  },
+  {
+    slug: "corporations-cannot-heal",
+    title: "💔 Corporations Can't Heal You — Only Humans Can",
+    excerpt: "The system wasn't built for you to be clear. It was built for you to consume, comply, and stay fogged. This is why healing is rebellion.",
+    emoji: "💔"
+  },
+  {
+    slug: "time-doesnt-speed-up",
+    title: "🕰️ Time Doesn't Speed Up — You Do",
+    excerpt: "Time doesn't speed up as you age. You speed up — because you're bracing for death. How clearing the fog brings you back into time.",
+    emoji: "🕰️"
+  },
+  {
+    slug: "social-media-taper",
+    title: "🧠 Techniques to Taper Off Social Media & Dopamine",
+    excerpt: "This isn't about deleting your accounts forever. It's about reclaiming your ability to focus, feel, and live in real-time.",
+    emoji: "🧠"
   }
 ];
 

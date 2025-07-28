@@ -278,15 +278,18 @@ const Science = () => {
                       <li>• Support fermented foods and prebiotic fiber intake</li>
                     </ul>
                   </div>
+                  
                   <div className="mt-6 p-4 bg-gradient-to-r from-sage/15 to-gold/15 rounded-lg border border-sage/30">
                     <h4 className="text-base font-bold text-deep-teal mb-3 flex items-center gap-2">
                       <Sprout className="w-4 h-4" />
                       Gut-Brain Research Sources:
                     </h4>
-                    <div className="space-y-2">
-                      <a href="https://www.carenity.us/condition-information/magazine/nutrition/10-natural-supplements-that-can-transform-your-mental-health-1937" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ Carenity: Probiotics & Mental Health Research</a>
-                      <a href="https://www.mindbodygreen.com/articles/diet-that-improved-my-sleep-energy-anxiety" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ MindBodyGreen: Gut-Brain Axis Connection</a>
-                      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4367209/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block text-sm">→ NCBI: Microbiome & Mental Health</a>
+                    <div className="space-y-2 text-sm">
+                      <a href="https://my.clevelandclinic.org/health/articles/22970-bristol-stool-chart" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block">→ Cleveland Clinic: Bristol Stool Chart (Healthy Digestion)</a>
+                      <a href="https://www.health.harvard.edu/diseases-and-conditions/the-gut-brain-connection" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block">→ Harvard Health: The Gut-Brain Connection</a>
+                      <a href="https://my.clevelandclinic.org/health/body/22886-vagus-nerve" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block">→ Cleveland Clinic: Vagus Nerve & Digestion</a>
+                      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6784912/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block">→ NIH: Gut Microbiota and Depression</a>
+                      <a href="https://www.apa.org/news/press/releases/stress/2011/digestive" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline font-medium block">→ APA: Stress Effects on Digestive System</a>
                     </div>
                   </div>
                 </CardContent>
