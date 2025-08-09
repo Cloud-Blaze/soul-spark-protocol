@@ -57,7 +57,7 @@ const About = () => {
                   </p>
 
                   <p>
-                    The tipping point came not with a crisis, but a moment of unexpected clarity: a single dose of ashwagandha lifted the edge off the fog and his deep sensitivity and wish to love like he used to (unmuted love) immediately was noticed that it was his ailment. He was just blocked in the central nervous system. The effect wasn't euphoric mania—it was <strong className="text-primary">presence</strong>. In that moment, David saw not only his own disconnection, but the subtle burnout, mood volatility, and fog everywhere he walked in the city. That experience became the beginning of a full protocol: built not from scratch, but from <strong className="text-primary">what worked</strong>.
+                    The tipping point came not with a crisis, but a moment of unexpected clarity: for David, an early experience with ashwagandha took the edge off the fog and revealed that his sensitivity—and his desire to love fully—had been muted by a stressed nervous system. The effect wasn't euphoric mania—it was <strong className="text-primary">presence</strong>. This was David's experience; every body is different, and nothing here is medical advice. In that moment, David saw not only his own disconnection, but the subtle burnout, mood volatility, and fog everywhere he walked in the city. That experience became the beginning of a full protocol: built not from scratch, but from <strong className="text-primary">what worked</strong>.
                   </p>
 
                   <p>
@@ -65,7 +65,7 @@ const About = () => {
                   </p>
 
                   <p>
-                    David's determination didn't come from theory—it came from experience.He witnessed firsthand—through his own journey and long conversations with his best friend Maciej—what happens when two dysregulated nervous systems try to hold a household together. The weight it places on family, on children, and on love itself is profound. His own upbringing left him with the deep, lifelong question: <em className="text-deep-teal">what's really wrong with me—and what if it's not chemical, but environmental and nutritional?</em> That question turned into an obsession. And that obsession became Unfogged.
+                    David's determination didn't come from theory—it came from experience. He witnessed firsthand—through his own journey and long conversations with his best friend Maciej—what happens when two dysregulated nervous systems try to hold a household together. The weight it places on family, on children, and on love itself is profound. His own upbringing left him with the deep, lifelong question: <em className="text-deep-teal">what's really wrong with me—and what if it's not chemical, but environmental and nutritional?</em> That question turned into an obsession. And that obsession became Unfogged.
                   </p>
                   
                   <p>
@@ -87,7 +87,7 @@ const About = () => {
                 
                 <div className="bg-background/80 backdrop-blur-sm rounded-xl p-6 border border-sage/20 hover:border-primary/30 transition-all duration-300 text-center">
                   <Users className="w-10 h-10 text-primary mx-auto mb-4" />
-                  <h3 className="text-lg font-semibold text-deep-teal mb-2">Healing should taste like a gummy.</h3>
+                  <h3 className="text-lg font-semibold text-deep-teal mb-2">Support can be simple—approachable, even like a gummy.</h3>
                 </div>
                 
                 <div className="bg-background/80 backdrop-blur-sm rounded-xl p-6 border border-sage/20 hover:border-primary/30 transition-all duration-300 text-center">
@@ -124,7 +124,7 @@ const About = () => {
                   </p>
                   
                   <p>
-                    This is <strong className="text-primary">the whole symphony</strong> a <strong className="text-primary">symphony of my life</strong> and your potential life if you take a baby step gummy on day one of 90 days. I just unlocked it as I have been listening so close to my emotions and they guided me to this place I created on the internet. unfogged.org.
+                    This is <strong className="text-primary">the whole symphony</strong> of my life—and your potential life if you take a baby-step gummy on day one of 90 days. I just unlocked it as I have been listening closely to my emotions, and they guided me to this place I created on the internet: unfogged.org.
                   </p>
 
                   <p>
@@ -152,7 +152,7 @@ const About = () => {
 
                   <p>
                     This isn't just about clarity.
-                    This is about <strong className="text-primary">stopping an intergenerational handoff of nervous system chaos that has possibly lasted eons on Earth</strong>.  But children always faired well in previous generations because they never got into a dopamine screen regiment that the internet generation caused.
+                    This is about <strong className="text-primary">stopping an intergenerational handoff of nervous system chaos that has possibly lasted eons on Earth</strong>. But children often fared well in previous generations because they didn't enter a dopamine screen regimen that the internet era introduced.
                   </p>
 
                   <p>
