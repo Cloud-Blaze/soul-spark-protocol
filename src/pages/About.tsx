@@ -100,7 +100,7 @@ const About = () => {
               <div className="bg-gradient-to-r from-gold/10 to-sage/10 rounded-xl p-8 border border-gold/20 mb-12">
                 <div className="prose prose-lg max-w-none text-deep-teal/80 leading-relaxed space-y-6">
                   <p>
-                    Unfogged isn't just a protocol—it's a response to a broken system. One that profits from sedation, misdiagnosis, and shame. David believes in the right to remember who you were <strong className="text-primary">before stress rewired you.</strong> Before alcohol muted you. Before pills confused your mood with your identity.
+                    Unfogged isn't just a protocol—it’s a response to patterns in our care systems that, for many, have prioritized sedation or quick fixes over root healing. David honors that medication and psychiatry help many people—and he has benefited from clinical care himself—while advocating for nervous system repair and lifestyle support where it’s appropriate. He believes in the right to remember who you were <strong className="text-primary">before stress rewired you.</strong> Before alcohol muted you. Before any intervention blurred the line between symptom and self.
                   </p>
 
                   <p>
@@ -112,7 +112,7 @@ const About = () => {
                   </p>
 
                   <p>
-                    David sees Unfogged as a blueprint not for perfection—but for liberation. From the 5PM glass of wine. From the 3AM regret. From the shame of asking a doctor for help.
+                    David sees Unfogged as a blueprint not for perfection—but for liberation. From the 5PM glass of wine. From the 3AM regret. And from the shame often attached to asking for help—including from a doctor—when you need it.
                   </p>
 
                   <p>
