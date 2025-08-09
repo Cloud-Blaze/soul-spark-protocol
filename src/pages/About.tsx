@@ -65,7 +65,7 @@ const About = () => {
                   </p>
 
                   <p>
-                    David's determination didn't come from theory—it came from experience. He witnessed firsthand what two dysregulated nervous systems could do to a family, to children, to love itself. His own upbringing left him with the deep, lifelong question: <em className="text-deep-teal">what's really wrong with me—and what if it's not chemical, but environmental and nutritional?</em> That question turned into an obsession. And that obsession became Unfogged.
+                    David's determination didn't come from theory—it came from experience.He witnessed firsthand—through his own journey and long conversations with his best friend Maciej—what happens when two dysregulated nervous systems try to hold a household together. The weight it places on family, on children, and on love itself is profound. His own upbringing left him with the deep, lifelong question: <em className="text-deep-teal">what's really wrong with me—and what if it's not chemical, but environmental and nutritional?</em> That question turned into an obsession. And that obsession became Unfogged.
                   </p>
                   
                   <p>
