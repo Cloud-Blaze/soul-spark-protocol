@@ -220,6 +220,12 @@ const blogPosts = [
     title: "🧠 Techniques to Taper Off Social Media & Dopamine",
     excerpt: "This isn't about deleting your accounts forever. It's about reclaiming your ability to focus, feel, and live in real-time.",
     emoji: "🧠"
+  },
+  {
+    slug: "stasis-protocol",
+    title: "💠 The Stasis Protocol: Freeze Time with Love",
+    excerpt: "A love-anchored way to slow fear, calm your nervous system, and move from fog to clarity.",
+    emoji: "💠"
   }
 ];
 

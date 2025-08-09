@@ -51,8 +51,9 @@ import NervousSystemRelapse from "./pages/blog/NervousSystemRelapse";
 import CorporationsCannotHeal from "./pages/blog/CorporationsCannotHeal";
 import TimeDoesntSpeedUp from "./pages/blog/TimeDoesntSpeedUp";
 import SocialMediaTaper from "./pages/blog/SocialMediaTaper";
-
-const queryClient = new QueryClient();
+import StasisProtocol from "./pages/blog/StasisProtocol";
+ 
+ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -108,6 +109,7 @@ const App = () => (
           <Route path="/blog/corporations-cannot-heal" element={<CorporationsCannotHeal />} />
           <Route path="/blog/time-doesnt-speed-up" element={<TimeDoesntSpeedUp />} />
           <Route path="/blog/social-media-taper" element={<SocialMediaTaper />} />
+          <Route path="/blog/stasis-protocol" element={<StasisProtocol />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
