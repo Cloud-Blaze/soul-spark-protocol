@@ -105,6 +105,7 @@ const StackSection = () => {
                       </a>
                     </Button>
                   </div>
+                  {supplement.name === "Ashwagandha" && <AshwagandhaWarning />}
                 </div>
               ))}
             </div>
