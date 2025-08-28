@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Heart, Users, Target } from "lucide-react";
+import AshwagandhaWarning from "@/components/AshwagandhaWarning";
 
 const About = () => {
   useEffect(() => {
@@ -59,6 +60,8 @@ const About = () => {
                   <p>
                     The tipping point came not with a crisis, but a moment of unexpected clarity: for David, an early experience with ashwagandha took the edge off the fog and revealed that his sensitivity—and his desire to love fully—had been muted by a stressed nervous system. The effect wasn't euphoric mania—it was <strong className="text-primary">presence</strong>. This was David's experience; every body is different, and nothing here is medical advice. In that moment, David saw not only his own disconnection, but the subtle burnout, mood volatility, and fog everywhere he walked in the city. That experience became the beginning of a full protocol: built not from scratch, but from <strong className="text-primary">what worked</strong>.
                   </p>
+
+                  <AshwagandhaWarning />
 
                   <p>
                     What started as a personal experiment became Unfogged™—an open-source, non-profit-backed movement to help others reclaim their clarity through nutritional support, nervous system timing, and accessible wellness rituals.

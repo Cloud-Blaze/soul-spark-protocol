@@ -1,4 +1,5 @@
 import { Clock, Brain, Thermometer, Heart, Volume2 } from "lucide-react";
+import AshwagandhaWarning from "./AshwagandhaWarning";
 
 const FirstWeekClaritySection = () => {
   const symptoms = [
@@ -116,6 +117,7 @@ const FirstWeekClaritySection = () => {
                         </div>
                       ))}
                     </div>
+                    {index === 0 && <AshwagandhaWarning />}
                   </div>
                 </div>
               </div>

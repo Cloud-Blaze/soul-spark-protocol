@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Check, Clock, Sparkles, Shield, ShoppingCart } from "lucide-react";
 import nervousSystemHealing from "@/assets/nervous-system-healing.jpg";
+import AshwagandhaWarning from "./AshwagandhaWarning";
 
 const StackSection = () => {
   const supplements = [
@@ -174,6 +175,8 @@ const StackSection = () => {
             That 5PM glass of wine you reach for to calm the chaos? That's your cortisol screaming. 
             Ashwagandha helps regulate that surge so your brain doesn't reach for alcohol just to shut down.
           </p>
+
+          <AshwagandhaWarning />
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="healing" size="lg" asChild>
