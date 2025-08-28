@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import AshwagandhaWarning from "@/components/AshwagandhaWarning";
 import { Button } from "@/components/ui/button";
 import { ShoppingCart, ExternalLink, Shield, DollarSign } from "lucide-react";
 
@@ -151,6 +152,13 @@ const Stack = () => {
                           </p>
                         </div>
                       </div>
+                      
+                      {/* Add warning for Ashwagandha */}
+                      {supplement.name.toLowerCase().includes('ashwagandha') && (
+                        <div className="mt-6 pt-6 border-t border-sage/20">
+                          <AshwagandhaWarning />
+                        </div>
+                      )}
                     </div>
                   </div>
                 ))}
