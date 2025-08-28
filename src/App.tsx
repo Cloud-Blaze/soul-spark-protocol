@@ -12,6 +12,7 @@ import Stack from "./pages/Stack";
 import Science from "./pages/Science";
 import About from "./pages/About";
 import Terms from "./pages/Terms";
+import AshwagandhaWarnings from "./pages/AshwagandhaWarnings";
 import NotFound from "./pages/NotFound";
 import Blog from "./pages/Blog";
 import FoggedGeneration from "./pages/blog/FoggedGeneration";
@@ -70,8 +71,9 @@ const App = () => (
             <Route path="/stack" element={<Stack />} />
           <Route path="/science" element={<Science />} />
           <Route path="/about" element={<About />} />
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/blog" element={<Blog />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/ashwagandha-warnings" element={<AshwagandhaWarnings />} />
+            <Route path="/blog" element={<Blog />} />
           <Route path="/blog/youre-not-failing" element={<YoureNotFailing />} />
           <Route path="/blog/orbiting-the-fog" element={<OrbitingTheFog />} />
           <Route path="/blog/fog-and-return" element={<FogAndReturn />} />
